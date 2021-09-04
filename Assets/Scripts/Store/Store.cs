@@ -22,7 +22,8 @@ public class Store : MonoBehaviour
 
     private void OnEnable()
     {
-        coinText.text = PlayerPrefs.GetInt("totalCoin").ToString();
+        totalCoin = PlayerPrefs.GetInt("totalCoin");
+        coinText.text = totalCoin.ToString();
         CreateStoreItems();
     }
 
@@ -33,10 +34,10 @@ public class Store : MonoBehaviour
 
     public void CreateStoreItems()
     {
-        for (int i = 0; i < themeManager.themes.Length; i++)
+        for (int i = 0; i < themeManager.themes.Count; i++)
         {
             storeItems.Add(Instantiate(itemPrefab, scrollViewContent.transform).GetComponent<StoreItem>());
-            storeItems[i].SetItemInfo(themeManager.themes[i]);
+            storeItems[i].SetItemInfo(themeManager.themes[i], totalCoin);
         }
     }
 

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,9 +9,8 @@ public class ThemeManager : MonoBehaviour
     public CanvasManager canvas;
 
     public int currentTheme;
-    public Theme[] themes;
+    public List<Theme> themes;
 
-    // Start is called before the first frame update
     void Awake()
     {
         if (instance == null)
@@ -21,43 +21,24 @@ public class ThemeManager : MonoBehaviour
         currentTheme = PlayerPrefs.GetInt("theme", 0);
     }
 
-    public void BuyTheme(string name)
+    public void BuyTheme(Theme themeToBuy)
     {
-        canvas.ShowWarning("You must restart the game for apply to change", 3f);
         int totalCoin = PlayerPrefs.GetInt("totalCoin");
-        for (int i = 0; i < themes.Length; i++)
-        {
-            if (themes[i].name == name)
-            {
-                if (!themes[i].buyed)
-                {
-                    if (totalCoin >= themes[i].cost)
-                    {
-                        PlayerPrefs.SetInt("theme", i);
-                        PickTheme(i);
-                        PlayerPrefs.SetInt("totalCoin", totalCoin - themes[i].cost);
-                        themes[i].buyed = true;
-                        canvas.ShowWarning("You must restart the game for apply to change", 3f);
-                    }
-                    else
-                    {
-                        canvas.ShowWarning("You have no money!", 3f);
-                    }
+        PlayerPrefs.SetInt("totalCoin", totalCoin - themes[currentTheme].cost);
 
-                }
-                else if(themes[i].buyed)
-                {
-                    PlayerPrefs.SetInt("theme", i);
-                    PickTheme(i);
-                    canvas.ShowWarning("You must restart the game for apply to change", 3f);
-                }
-            }
-        }
+        currentTheme = themes.IndexOf(themeToBuy);
+        themes[currentTheme].buyed = true;
+        PlayerPrefs.SetInt("theme", currentTheme);
+
+        canvas.ShowWarning("You must restart the game for apply to change", 3f);
     }
 
-    public void PickTheme(int i)
+    internal void EquipTheme(Theme themeToEquip)
     {
-        currentTheme = i;
+        currentTheme = themes.IndexOf(themeToEquip);
+        PlayerPrefs.SetInt("theme", currentTheme);
+
+        canvas.ShowWarning("You must restart the game for apply to change", 3f);
     }
 
     public Theme GetTheme()

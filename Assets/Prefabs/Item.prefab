@@ -188,10 +188,10 @@ RectTransform:
   m_Father: {fileID: 6459094039730310818}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.7326945, y: 0.068607844}
-  m_AnchorMax: {x: 0.89938897, y: 0.32360786}
-  m_AnchoredPosition: {x: -0.26867676, y: -0.080200195}
-  m_SizeDelta: {x: -0.060058594, y: 0.23999023}
+  m_AnchorMin: {x: 0.67600006, y: 0.068607844}
+  m_AnchorMax: {x: 0.89938897, y: 0.3236207}
+  m_AnchoredPosition: {x: -1.8000153, y: -0.080200344}
+  m_SizeDelta: {x: 2.8528442, y: 0.23999023}
   m_Pivot: {x: 0.50000036, y: 0.49999997}
 --- !u!222 &8636432929717481828
 CanvasRenderer:
@@ -269,7 +269,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114984031908015866}
-        m_MethodName: BuyItem
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

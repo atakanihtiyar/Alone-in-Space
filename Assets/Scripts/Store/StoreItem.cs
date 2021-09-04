@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class StoreItem : MonoBehaviour
 {
+    private Theme _theme;
+
     public Image backgroundImage;
     public Image armoredImage;
     public Image doubleScoreImage;
@@ -16,16 +18,23 @@ public class StoreItem : MonoBehaviour
     public Button buyButton;
     public Text buyText;
 
-    public void BuyItem()
+    public void OnClick()
     {
-        string myName = transform.Find("NameText").GetComponent<Text>().text;
-        transform.Find("BuyButton").Find("CostText").GetComponent<Text>().text = "";
-
-        ThemeManager.instance.BuyTheme(myName);
+        if (_theme.buyed)
+        {
+            ThemeManager.instance.EquipTheme(_theme);
+        }
+        else
+        {
+            buyText.text = "Equip";
+            ThemeManager.instance.BuyTheme(_theme);
+        }
     }
 
-    public void SetItemInfo(Theme theme)
+    public void SetItemInfo(Theme theme, int totalCoin)
     {
+        _theme = theme;
+
         backgroundImage.sprite = theme.background;
         armoredImage.sprite = theme.armored;
         doubleScoreImage.sprite = theme.doubleScore;
@@ -35,5 +44,19 @@ public class StoreItem : MonoBehaviour
         descriptionText.text = theme.description;
 
         buyText.text = theme.buyed ? "Equip" : theme.cost.ToString();
+
+        if (theme.buyed)
+        {
+            buyText.text = "Equip";
+        }
+        else if (totalCoin < theme.cost)
+        {
+            buyText.text = "Insufficient Funds";
+            buyButton.interactable = false;
+        }
+        else
+        {
+            buyText.text = theme.cost.ToString();
+        }
     }
 }

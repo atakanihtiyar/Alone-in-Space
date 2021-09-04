@@ -4847,7 +4847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1558798590}
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
+  currentTheme: 0
   themes:
   - {fileID: 11400000, guid: f70eb84eada4028429a941820799102b, type: 2}
   - {fileID: 11400000, guid: ac8b73909cc9c8444bd22ca052ce8c2d, type: 2}
