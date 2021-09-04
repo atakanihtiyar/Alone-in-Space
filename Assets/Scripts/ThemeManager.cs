@@ -7,7 +7,7 @@ public class ThemeManager : MonoBehaviour
     public static ThemeManager instance;
     public CanvasManager canvas;
 
-    public Theme currentTheme;
+    public int currentTheme;
     public Theme[] themes;
 
     // Start is called before the first frame update
@@ -18,8 +18,7 @@ public class ThemeManager : MonoBehaviour
         else if (instance != this)
             Destroy(gameObject);
 
-        int curThemeInt = PlayerPrefs.GetInt("theme", 0);
-        PickTheme(curThemeInt);
+        currentTheme = PlayerPrefs.GetInt("theme", 0);
     }
 
     public void BuyTheme(string name)
@@ -58,17 +57,11 @@ public class ThemeManager : MonoBehaviour
 
     public void PickTheme(int i)
     {
-        currentTheme.none = themes[i].none;
+        currentTheme = i;
+    }
 
-        currentTheme.description = themes[i].description;
-        currentTheme.cost = themes[i].cost;
-        currentTheme.buyed = themes[i].buyed;
-
-        currentTheme.background = themes[i].background;
-        currentTheme.ship = themes[i].ship;
-
-        currentTheme.armored = themes[i].armored;
-        currentTheme.doubleScore = themes[i].doubleScore;
-        currentTheme.score = themes[i].score;
+    public Theme GetTheme()
+    {
+        return themes[currentTheme];
     }
 }

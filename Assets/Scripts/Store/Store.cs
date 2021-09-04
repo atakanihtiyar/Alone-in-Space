@@ -46,7 +46,7 @@ public class Store : MonoBehaviour
                 item.transform.Find("BuyButton").Find("CostText").GetComponent<Text>().text = "" + themeManager.themes[i].cost;
             else
             {
-                if (themeManager.currentTheme.name == themeManager.themes[i].name)
+                if (themeManager.GetTheme().name == themeManager.themes[i].name)
                 {
                     //when use it
                     item.transform.Find("BuyButton").Find("CostText").GetComponent<Text>().text = "Equip";
