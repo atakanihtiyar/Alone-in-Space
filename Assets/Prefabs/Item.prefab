@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3768400200972250650}
   - component: {fileID: 2389281831582649867}
   m_Layer: 5
-  m_Name: CostText
+  m_Name: BuyText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cost
+  m_Text: Buy
 --- !u!1 &2617566794051394550
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,6 +705,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8e1196c5477f34ca7b4c9f9a44967c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backgroundImage: {fileID: 5387593689912735958}
+  armoredImage: {fileID: 721712697324928560}
+  doubleScoreImage: {fileID: 2826810898771804664}
+  scoreImage: {fileID: 6735623967582162526}
+  nameText: {fileID: 7358845747522098775}
+  descriptionText: {fileID: 254886964818860387}
+  buyButton: {fileID: 7320794570309087961}
+  buyText: {fileID: 2389281831582649867}
 --- !u!1 &9097829974814861487
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Store : MonoBehaviour
 {
+    private List<StoreItem> storeItems;
     private ThemeManager themeManager;
     public GameObject itemPrefab;
     public GameObject scrollViewContent;
@@ -13,50 +14,35 @@ public class Store : MonoBehaviour
 
     private int totalCoin;
 
-    private void Start()
+    private void Awake()
     {
+        storeItems = new List<StoreItem>();
         themeManager = ThemeManager.instance;
+    }
 
+    private void OnEnable()
+    {
+        coinText.text = PlayerPrefs.GetInt("totalCoin").ToString();
         CreateStoreItems();
     }
-    
-    void Update()
+
+    private void OnDisable()
     {
-        if (Int32.Parse(coinText.text) != PlayerPrefs.GetInt("totalCoin"))
-        {
-            coinText.text = "" + PlayerPrefs.GetInt("totalCoin");
-        }
+        ClearStoreItems();
     }
 
     public void CreateStoreItems()
     {
         for (int i = 0; i < themeManager.themes.Length; i++)
         {
-
-            GameObject item = Instantiate(itemPrefab, scrollViewContent.transform);
-            item.transform.Find("BackgroundImage").GetComponent<Image>().sprite = themeManager.themes[i].background;
-            item.transform.Find("ArmoredImage").GetComponent<Image>().sprite = themeManager.themes[i].armored;
-            item.transform.Find("DoubleScoreImage").GetComponent<Image>().sprite = themeManager.themes[i].doubleScore;
-            item.transform.Find("ScoreImage").GetComponent<Image>().sprite = themeManager.themes[i].score;
-
-            item.transform.Find("NameText").GetComponent<Text>().text = themeManager.themes[i].name;
-            item.transform.Find("DescriptionText").GetComponent<Text>().text = themeManager.themes[i].description;
-
-            if (!themeManager.themes[i].buyed)
-                item.transform.Find("BuyButton").Find("CostText").GetComponent<Text>().text = "" + themeManager.themes[i].cost;
-            else
-            {
-                if (themeManager.GetTheme().name == themeManager.themes[i].name)
-                {
-                    //when use it
-                    item.transform.Find("BuyButton").Find("CostText").GetComponent<Text>().text = "Equip";
-                }
-                else
-                {
-                    //when not use it
-                    item.transform.Find("BuyButton").Find("CostText").GetComponent<Text>().text = "Equip";
-                }
-            }
+            storeItems.Add(Instantiate(itemPrefab, scrollViewContent.transform).GetComponent<StoreItem>());
+            storeItems[i].SetItemInfo(themeManager.themes[i]);
         }
+    }
+
+    public void ClearStoreItems()
+    {
+        storeItems.ForEach(item => { Destroy(item.gameObject); });
+        storeItems.Clear();
     }
 }
