@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fe31b8d1bf4b6479d31e60a4e7937e, type: 3}
+  m_Name: Cartoon
+  m_EditorClassIdentifier: 
+  description: cartoon style
+  cost: 1000
+  buyed: 0
+  none: {fileID: 0}
+  background: {fileID: 21300000, guid: dedbef526cf5a3245be9a966addbfb37, type: 3}
+  ship: {fileID: 0}
+  armored: {fileID: 21300000, guid: ad465e273c2d763428d5d00f239c5d81, type: 3}
+  doubleScore: {fileID: 21300000, guid: 61495015dae06ca46a9490ca653c31dd, type: 3}
+  score: {fileID: 21300000, guid: 2faf61fc9e06d48458f5d4c12a9ad577, type: 3}

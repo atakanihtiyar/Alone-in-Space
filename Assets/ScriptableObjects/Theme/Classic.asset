@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fe31b8d1bf4b6479d31e60a4e7937e, type: 3}
+  m_Name: Classic
+  m_EditorClassIdentifier: 
+  description: Starter Pack
+  cost: 10
+  buyed: 1
+  none: {fileID: 0}
+  background: {fileID: 21300000, guid: 892ded019ce292e47a0f89c1ce3ed9b2, type: 3}
+  ship: {fileID: 0}
+  armored: {fileID: 21300000, guid: c6a3a68601e26064a8dd537a46894252, type: 3}
+  doubleScore: {fileID: 21300000, guid: 0ff5c34dddc960e4d9c5addf023bdb85, type: 3}
+  score: {fileID: 21300000, guid: 4b29d9c7df8a2a040bf3f3344814dcaf, type: 3}
