@@ -4,14 +4,14 @@ using UnityEngine;
 
 public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
-    private static Singleton<T> instance;
+    private static T instance;
 
-    public static Singleton<T> Instance { get; private set; }
+    public static T Instance { get; private set; }
 
     private void Init()
     {
         if (instance == null)
-            instance = this;
+            instance = this as T;
         else if (instance != this)
             Destroy(gameObject);
     }
