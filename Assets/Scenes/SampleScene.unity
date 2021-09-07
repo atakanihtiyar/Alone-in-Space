@@ -1391,7 +1391,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Warning
+  m_Text: Notify
 --- !u!222 &475156487
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4618,8 +4618,9 @@ GameObject:
   - component: {fileID: 1645236711}
   - component: {fileID: 1645236713}
   - component: {fileID: 1645236712}
+  - component: {fileID: 1645236714}
   m_Layer: 5
-  m_Name: WarningPanel
+  m_Name: NotifyPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4680,6 +4681,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645236710}
   m_CullTransparentMesh: 0
+--- !u!114 &1645236714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645236710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abeb86c2aaff5f4438f9be14dc4c6c49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1652084415
 GameObject:
   m_ObjectHideFlags: 0
