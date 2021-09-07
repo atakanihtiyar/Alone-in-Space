@@ -6,6 +6,11 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T instance;
 
+    protected Singleton()
+    {
+        Init();
+    }
+
     public static T Instance { get; private set; }
 
     private void Init()
@@ -14,10 +19,5 @@ public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
             instance = this as T;
         else if (instance != this)
             Destroy(gameObject);
-    }
-
-    private void Awake()
-    {
-        Init();
     }
 }
