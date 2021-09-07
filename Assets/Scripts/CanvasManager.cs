@@ -92,6 +92,6 @@ public class CanvasManager : MonoBehaviour
     {
         Notify.Instance.Show("Tap for change direction\n" + 
             "Don't hit meteors(red)\n" + 
-            "Collect coins(yellow) and double coin(blue)", 5f);
+            "Collect coins(yellow) and double coin(blue)", Color.blue, Color.white, 5f);
     }
 }

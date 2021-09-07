@@ -6,17 +6,20 @@ using UnityEngine.UI;
 
 public class Notify : Singleton<Notify>
 {
-    private Text notifyText;
+    public Image backgroundImage;
+    public Text notifyText;
 
-    private void OnEnable()
+    public void Show(string message, Color backgroundColor, Color textColor, float waitTime)
     {
+        backgroundImage = GetComponent<Image>();
+        backgroundImage.color = backgroundColor;
+
         notifyText = GetComponentInChildren<Text>();
-    }
-
-    public void Show(string message, float waitTime)
-    {
-        gameObject.SetActive(true);
         notifyText.text = message;
+        notifyText.color = textColor;
+
+        gameObject.SetActive(true);
+
         Invoke("Hide", waitTime);
     }
 
