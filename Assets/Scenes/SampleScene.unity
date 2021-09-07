@@ -2231,7 +2231,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1558798590}
-        m_MethodName: HowToWarning
+        m_MethodName: HowToNotify
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4444,8 +4444,6 @@ MonoBehaviour:
   scoreTextPTIP: {fileID: 1129040966}
   scoreTextGOP: {fileID: 107261257}
   coinText: {fileID: 1605698581}
-  warningPanel: {fileID: 1645236710}
-  warningText: {fileID: 475156486}
 --- !u!114 &1558798591
 MonoBehaviour:
   m_ObjectHideFlags: 0
