@@ -10,8 +10,10 @@ public class ThemeManager : Singleton<ThemeManager>
     public int currentTheme;
     public List<Theme> themes;
 
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+
         currentTheme = PlayerPrefs.GetInt("theme", 0);
     }
 

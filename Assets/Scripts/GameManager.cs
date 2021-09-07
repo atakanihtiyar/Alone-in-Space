@@ -33,8 +33,10 @@ public class GameManager : Singleton<GameManager>
     public bool isDoubleScore = false;
 
     // Start is called before the first frame update
-    void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+
         currentGameState = GameState.mainMenu;
         SpeedUp();
 
