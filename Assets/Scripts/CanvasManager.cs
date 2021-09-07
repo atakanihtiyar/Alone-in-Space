@@ -17,9 +17,7 @@ public class CanvasManager : MonoBehaviour
     public Text scoreTextGOP;
     public Text coinText;
 
-    public GameObject warningPanel;
-    public Text warningText;
-    private Coroutine warningCo;
+
 
     // Start is called before the first frame update
     void Start()
@@ -90,25 +88,10 @@ public class CanvasManager : MonoBehaviour
         storePanel.SetActive(false);
     }
 
-    public void ShowWarning(string message, float waitTime)
+    public void HowToNotify()
     {
-        if (warningCo != null)
-            StopCoroutine(warningCo);
-
-        warningPanel.SetActive(false);
-        warningCo = StartCoroutine(Warning(message, waitTime));
-    }
-
-    public IEnumerator Warning(string message, float waitTime)
-    {
-        warningText.text = message;
-        warningPanel.SetActive(true);
-        yield return new WaitForSeconds(waitTime);
-        warningPanel.SetActive(false);
-    }
-
-    public void HowToWarning()
-    {
-        ShowWarning("Tap for change direction\nDon't hit meteors(red)\nCollect coins(yellow) and double coin(blue)", 5f);
+        Notify.Instance.Show("Tap for change direction\n" + 
+            "Don't hit meteors(red)\n" + 
+            "Collect coins(yellow) and double coin(blue)", 5f);
     }
 }

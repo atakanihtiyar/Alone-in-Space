@@ -30,7 +30,7 @@ public class ThemeManager : MonoBehaviour
         themes[currentTheme].buyed = true;
         PlayerPrefs.SetInt("theme", currentTheme);
 
-        canvas.ShowWarning("You must restart the game for apply to change", 3f);
+        Notify.Instance.Show("You must restart the game for apply to change", 3f);
     }
 
     internal void EquipTheme(Theme themeToEquip)
@@ -38,7 +38,7 @@ public class ThemeManager : MonoBehaviour
         currentTheme = themes.IndexOf(themeToEquip);
         PlayerPrefs.SetInt("theme", currentTheme);
 
-        canvas.ShowWarning("You must restart the game for apply to change", 3f);
+        Notify.Instance.Show("You must restart the game for apply to change", 3f);
     }
 
     public Theme GetTheme()
