@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 114066403790108486}
   - component: {fileID: 114425825250569066}
   m_Layer: 0
-  m_Name: S-Score
+  m_Name: S-Coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -96,11 +96,11 @@ GameObject:
   - component: {fileID: 6135512890803412365}
   - component: {fileID: 5324099655726669146}
   - component: {fileID: 7445681851168932841}
-  - component: {fileID: 1880449752996555443}
   - component: {fileID: 7040704364735758729}
+  - component: {fileID: 8864860374727696372}
   m_Layer: 0
-  m_Name: Shape
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -183,19 +183,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1880449752996555443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8660452168365548422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &7040704364735758729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,3 +197,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: 5
   currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
+--- !u!114 &8864860374727696372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8660452168365548422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

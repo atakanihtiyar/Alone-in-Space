@@ -11,11 +11,10 @@ GameObject:
   - component: {fileID: 641743652561501964}
   - component: {fileID: 3773531111820836481}
   - component: {fileID: 1420033780882788082}
-  - component: {fileID: 6858475993182547858}
   - component: {fileID: 4155616030153654522}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,19 +97,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6858475993182547858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167543152309874536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &4155616030153654522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,11 +155,10 @@ GameObject:
   - component: {fileID: 4417497901841379796}
   - component: {fileID: 8724873263075437764}
   - component: {fileID: 3242434269053842846}
-  - component: {fileID: 542404966539071171}
   - component: {fileID: 6733575913188587772}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -256,19 +241,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &542404966539071171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235654318824107290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &6733575913188587772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,11 +298,10 @@ GameObject:
   - component: {fileID: 9147546109465243006}
   - component: {fileID: 961312226675904286}
   - component: {fileID: 5821673566533362043}
-  - component: {fileID: 3794346135712340303}
   - component: {fileID: 1609077701629324909}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -413,19 +384,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &3794346135712340303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 644032561852660904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &1609077701629324909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,11 +442,10 @@ GameObject:
   - component: {fileID: 5659019783190978742}
   - component: {fileID: 426326672981893997}
   - component: {fileID: 7680638946775928089}
-  - component: {fileID: 6985844805136322918}
   - component: {fileID: 7864863650145381726}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -571,19 +528,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6985844805136322918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036729500263512121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &7864863650145381726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -609,11 +553,10 @@ GameObject:
   - component: {fileID: 396467963969740357}
   - component: {fileID: 164015624299986021}
   - component: {fileID: 270174176841739645}
-  - component: {fileID: 7556063253462876302}
   - component: {fileID: 595981489431168406}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -696,19 +639,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7556063253462876302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078108926612191314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &595981489431168406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -827,11 +757,10 @@ GameObject:
   - component: {fileID: 1289664206915987205}
   - component: {fileID: 1289664206915987206}
   - component: {fileID: 4632098371062637459}
-  - component: {fileID: 5058066890045493295}
   - component: {fileID: 5960915381826239948}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -914,19 +843,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &5058066890045493295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289664206915987322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &5960915381826239948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -984,11 +900,10 @@ GameObject:
   - component: {fileID: 4457801981569305727}
   - component: {fileID: 1301215921353370362}
   - component: {fileID: 5863022827180837529}
-  - component: {fileID: 1470536018367477447}
   - component: {fileID: 5054606159695617818}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1071,19 +986,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1470536018367477447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1393005154628412914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &5054606159695617818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1109,11 +1011,10 @@ GameObject:
   - component: {fileID: 8813366330930535641}
   - component: {fileID: 8411016675071805856}
   - component: {fileID: 1487372710316620132}
-  - component: {fileID: 3698965344901626136}
   - component: {fileID: 4540486505552203130}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1196,19 +1097,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &3698965344901626136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535431330713152127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &4540486505552203130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1234,11 +1122,10 @@ GameObject:
   - component: {fileID: 3533557304612751262}
   - component: {fileID: 2964254486381994077}
   - component: {fileID: 2765522131382857184}
-  - component: {fileID: 2742190449604867665}
   - component: {fileID: 6885410745395776001}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1321,19 +1208,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2742190449604867665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1667470718328528415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &6885410745395776001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1359,11 +1233,10 @@ GameObject:
   - component: {fileID: 7068273735804066549}
   - component: {fileID: 6872434168850989036}
   - component: {fileID: 785745188549245050}
-  - component: {fileID: 242653345696387908}
   - component: {fileID: 5097701330401455758}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1446,19 +1319,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &242653345696387908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685678162418753680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &5097701330401455758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1484,11 +1344,10 @@ GameObject:
   - component: {fileID: 2225256107130540890}
   - component: {fileID: 6206518720194636752}
   - component: {fileID: 4819081034695929548}
-  - component: {fileID: 184646106072893856}
   - component: {fileID: 6621555012895846234}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1571,19 +1430,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &184646106072893856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765198784741162999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &6621555012895846234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1609,11 +1455,10 @@ GameObject:
   - component: {fileID: 6502826069505181474}
   - component: {fileID: 6084715375455211283}
   - component: {fileID: 8750245598247461675}
-  - component: {fileID: 6998366632512454831}
   - component: {fileID: 282015956429695261}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1696,19 +1541,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6998366632512454831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896970211388115988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &282015956429695261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1734,11 +1566,10 @@ GameObject:
   - component: {fileID: 4772210771789489733}
   - component: {fileID: 6875051853060533970}
   - component: {fileID: 5311714252494044898}
-  - component: {fileID: 8240241826677948124}
   - component: {fileID: 583270490761344426}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1821,19 +1652,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8240241826677948124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1953498154024974045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &583270490761344426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1859,11 +1677,10 @@ GameObject:
   - component: {fileID: 4826870858516396458}
   - component: {fileID: 522013033588880649}
   - component: {fileID: 8374069812404815762}
-  - component: {fileID: 6064197827356838204}
   - component: {fileID: 6536887628985099942}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1946,19 +1763,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6064197827356838204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002366774446526351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &6536887628985099942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2050,11 +1854,10 @@ GameObject:
   - component: {fileID: 5734294267201904318}
   - component: {fileID: 7987801617029278423}
   - component: {fileID: 3042158101600758191}
-  - component: {fileID: 2211800190757953390}
   - component: {fileID: 1553325493090940486}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2137,19 +1940,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2211800190757953390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2606743566935310818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &1553325493090940486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2175,11 +1965,10 @@ GameObject:
   - component: {fileID: 6031026305806091303}
   - component: {fileID: 1131491805886264448}
   - component: {fileID: 5836658259248803560}
-  - component: {fileID: 888732068642260002}
   - component: {fileID: 497825769223830533}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2262,19 +2051,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &888732068642260002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2643885102739332502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &497825769223830533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2300,11 +2076,10 @@ GameObject:
   - component: {fileID: 86621971822402559}
   - component: {fileID: 4219156607327834865}
   - component: {fileID: 576487787574333565}
-  - component: {fileID: 287624960605211608}
   - component: {fileID: 5531116729564666695}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2387,19 +2162,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &287624960605211608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2800417876460373497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &5531116729564666695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2457,11 +2219,10 @@ GameObject:
   - component: {fileID: 7534121047925703102}
   - component: {fileID: 2597491732597196286}
   - component: {fileID: 8015645507522442418}
-  - component: {fileID: 6295486295293664288}
   - component: {fileID: 3541753067302316031}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2544,19 +2305,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6295486295293664288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3170367587135963457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &3541753067302316031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2680,11 +2428,10 @@ GameObject:
   - component: {fileID: 8755288020253992152}
   - component: {fileID: 599237340481693004}
   - component: {fileID: 3999493044749888450}
-  - component: {fileID: 6478601530905438789}
   - component: {fileID: 4918272001216031419}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2767,19 +2514,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6478601530905438789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3554213470704949198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &4918272001216031419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2805,11 +2539,10 @@ GameObject:
   - component: {fileID: 6641058423555530833}
   - component: {fileID: 6103804082102290827}
   - component: {fileID: 3117728780926805052}
-  - component: {fileID: 1246949412645837023}
   - component: {fileID: 5118002331608966546}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2892,19 +2625,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1246949412645837023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3622399938802308642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &5118002331608966546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2930,11 +2650,10 @@ GameObject:
   - component: {fileID: 222142935856737229}
   - component: {fileID: 5125883502906627832}
   - component: {fileID: 6043589279075031032}
-  - component: {fileID: 7529561346804432254}
   - component: {fileID: 3415894333598141076}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3017,19 +2736,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7529561346804432254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3740579757140469393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &3415894333598141076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3055,11 +2761,10 @@ GameObject:
   - component: {fileID: 6785323695542610236}
   - component: {fileID: 7689597541338305378}
   - component: {fileID: 2287130395529633964}
-  - component: {fileID: 1306326711955713015}
   - component: {fileID: 8304011231687832719}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3142,19 +2847,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1306326711955713015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3820791786533503020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &8304011231687832719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3245,11 +2937,10 @@ GameObject:
   - component: {fileID: 8353241013401667628}
   - component: {fileID: 6413634274324078372}
   - component: {fileID: 45210048122077955}
-  - component: {fileID: 5284842892661976264}
   - component: {fileID: 8300787584994530769}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3332,19 +3023,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &5284842892661976264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3975052677297869241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &8300787584994530769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3370,11 +3048,10 @@ GameObject:
   - component: {fileID: 929234244633467193}
   - component: {fileID: 291256439032662281}
   - component: {fileID: 2012030242912958125}
-  - component: {fileID: 1216944620182881431}
   - component: {fileID: 1911175872531491270}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3457,19 +3134,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1216944620182881431
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3999028306411764370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &1911175872531491270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3495,11 +3159,10 @@ GameObject:
   - component: {fileID: 2386713845736528369}
   - component: {fileID: 727197812865067454}
   - component: {fileID: 2641202246610687069}
-  - component: {fileID: 6956820222296468466}
   - component: {fileID: 4678494856094277689}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3582,19 +3245,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6956820222296468466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4250102404267625863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &4678494856094277689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3685,11 +3335,10 @@ GameObject:
   - component: {fileID: 2951662197306975441}
   - component: {fileID: 8031352178582989617}
   - component: {fileID: 3940503792924125333}
-  - component: {fileID: 7685847034998249524}
   - component: {fileID: 647913480917228782}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3772,19 +3421,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7685847034998249524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4471468382955042291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &647913480917228782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3810,11 +3446,10 @@ GameObject:
   - component: {fileID: 4605270603153225740}
   - component: {fileID: 1379398979878957428}
   - component: {fileID: 6088947129242481106}
-  - component: {fileID: 8430294891869989484}
   - component: {fileID: 1755629505172112966}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3897,19 +3532,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8430294891869989484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4481882294254292855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &1755629505172112966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3935,11 +3557,10 @@ GameObject:
   - component: {fileID: 258692283428086494}
   - component: {fileID: 1418526413054329088}
   - component: {fileID: 2883850267650764363}
-  - component: {fileID: 2910749306436332735}
   - component: {fileID: 1161690853406713801}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4022,19 +3643,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2910749306436332735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4760680261108543363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &1161690853406713801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4060,11 +3668,10 @@ GameObject:
   - component: {fileID: 9090509688929906335}
   - component: {fileID: 7171997490217080034}
   - component: {fileID: 4666614952728281005}
-  - component: {fileID: 1245741679952873865}
   - component: {fileID: 142041647384512123}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4147,19 +3754,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1245741679952873865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4815573647041763733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &142041647384512123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4185,11 +3779,10 @@ GameObject:
   - component: {fileID: 3292210816354333144}
   - component: {fileID: 1538851054759165178}
   - component: {fileID: 7263552145643921982}
-  - component: {fileID: 1103489068849188142}
   - component: {fileID: 2696302428208955240}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4272,19 +3865,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1103489068849188142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4821023729415827182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &2696302428208955240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4310,11 +3890,10 @@ GameObject:
   - component: {fileID: 770638068928449119}
   - component: {fileID: 6719439860978853005}
   - component: {fileID: 7769843509060230330}
-  - component: {fileID: 8531852287326173356}
   - component: {fileID: 7542323902672114786}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4397,19 +3976,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8531852287326173356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4976629107715332535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &7542323902672114786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4468,11 +4034,10 @@ GameObject:
   - component: {fileID: 5327264650944978783}
   - component: {fileID: 3407818259002576867}
   - component: {fileID: 8433208558626472085}
-  - component: {fileID: 3306364467752917058}
   - component: {fileID: 2303721466362391261}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4555,19 +4120,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &3306364467752917058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5097558117747551424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &2303721466362391261
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4593,11 +4145,10 @@ GameObject:
   - component: {fileID: 6338255730295616582}
   - component: {fileID: 2189912162765252362}
   - component: {fileID: 4055054349242979335}
-  - component: {fileID: 5248239876042768815}
   - component: {fileID: 8177569495814391467}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4680,19 +4231,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &5248239876042768815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5102987755362418467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &8177569495814391467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4718,11 +4256,10 @@ GameObject:
   - component: {fileID: 3704050310672894353}
   - component: {fileID: 5650903040485961807}
   - component: {fileID: 6745866953356129524}
-  - component: {fileID: 8190723018819667833}
   - component: {fileID: 2656751806150381601}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4805,19 +4342,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8190723018819667833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5223752895207404048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &2656751806150381601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4875,11 +4399,10 @@ GameObject:
   - component: {fileID: 4230050683791202272}
   - component: {fileID: 5648419939497494861}
   - component: {fileID: 4034311641387671021}
-  - component: {fileID: 2610737578312218277}
   - component: {fileID: 5360743885486513060}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4962,19 +4485,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2610737578312218277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5331221975997738398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &5360743885486513060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5000,11 +4510,10 @@ GameObject:
   - component: {fileID: 913311766049124835}
   - component: {fileID: 4874083351661758954}
   - component: {fileID: 8781730711877145030}
-  - component: {fileID: 8342808251871462026}
   - component: {fileID: 2518987729601580471}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5087,19 +4596,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8342808251871462026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5407143091712568055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &2518987729601580471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5125,11 +4621,10 @@ GameObject:
   - component: {fileID: 5948239707393056412}
   - component: {fileID: 3157534100304535200}
   - component: {fileID: 2171344288821057498}
-  - component: {fileID: 2904012713531019314}
   - component: {fileID: 6856934288219541303}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5212,19 +4707,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2904012713531019314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5416104753582266952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &6856934288219541303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5250,11 +4732,10 @@ GameObject:
   - component: {fileID: 9087837879236002215}
   - component: {fileID: 2781559063038837569}
   - component: {fileID: 4466730024623531903}
-  - component: {fileID: 1216653901909082702}
   - component: {fileID: 1354425241996025405}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5337,19 +4818,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1216653901909082702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5770738687561950967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &1354425241996025405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5375,11 +4843,10 @@ GameObject:
   - component: {fileID: 7306822046626149630}
   - component: {fileID: 1425410234812709678}
   - component: {fileID: 8564636846921455851}
-  - component: {fileID: 65680301795915144}
   - component: {fileID: 7961294651059067154}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5462,19 +4929,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &65680301795915144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5840477707743418366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &7961294651059067154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5500,11 +4954,10 @@ GameObject:
   - component: {fileID: 1433158260007038890}
   - component: {fileID: 6956016969195850422}
   - component: {fileID: 3135471294086125307}
-  - component: {fileID: 70466377105730336}
   - component: {fileID: 8112160899840189359}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5587,19 +5040,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &70466377105730336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6256229226227719383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &8112160899840189359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5625,11 +5065,10 @@ GameObject:
   - component: {fileID: 5407518012666309089}
   - component: {fileID: 7255513786328116274}
   - component: {fileID: 7819674333815478590}
-  - component: {fileID: 4092687287805724696}
   - component: {fileID: 2586520796026191993}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5712,19 +5151,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4092687287805724696
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523856638834368507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &2586520796026191993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5815,11 +5241,10 @@ GameObject:
   - component: {fileID: 5968716513380741501}
   - component: {fileID: 245369367522020387}
   - component: {fileID: 1217459390880437878}
-  - component: {fileID: 8445471675667216784}
   - component: {fileID: 4590892596801445997}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5902,19 +5327,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8445471675667216784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6901964927858966146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &4590892596801445997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6036,11 +5448,10 @@ GameObject:
   - component: {fileID: 8449082120006754138}
   - component: {fileID: 2600128952092049780}
   - component: {fileID: 1779591553528872725}
-  - component: {fileID: 5890438902256514562}
   - component: {fileID: 5435458839104221675}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6123,19 +5534,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &5890438902256514562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7156719324946198488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &5435458839104221675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6161,11 +5559,10 @@ GameObject:
   - component: {fileID: 7902649972809888525}
   - component: {fileID: 6100080107404379860}
   - component: {fileID: 8100800743922982628}
-  - component: {fileID: 1618103636901888953}
   - component: {fileID: 2071005210538034065}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6248,19 +5645,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1618103636901888953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7300776311988024796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &2071005210538034065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6286,11 +5670,10 @@ GameObject:
   - component: {fileID: 8708509109826440180}
   - component: {fileID: 5408872794880690997}
   - component: {fileID: 5088338978977605714}
-  - component: {fileID: 6542798558121813360}
   - component: {fileID: 9169961357947325372}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6373,19 +5756,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6542798558121813360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7303738616213356976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &9169961357947325372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6411,11 +5781,10 @@ GameObject:
   - component: {fileID: 3638629545306810457}
   - component: {fileID: 5207636695657249377}
   - component: {fileID: 6406278655324412618}
-  - component: {fileID: 6231324110347250763}
   - component: {fileID: 2290736624939703994}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6498,19 +5867,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6231324110347250763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7378132720384827618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &2290736624939703994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6536,11 +5892,10 @@ GameObject:
   - component: {fileID: 4592596837831208599}
   - component: {fileID: 3506497845343292919}
   - component: {fileID: 3682699507088561041}
-  - component: {fileID: 6953142776157832091}
   - component: {fileID: 3793934212762328750}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6623,19 +5978,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6953142776157832091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7386935158374270658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &3793934212762328750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6661,11 +6003,10 @@ GameObject:
   - component: {fileID: 1026030952373234495}
   - component: {fileID: 3488007769777440048}
   - component: {fileID: 7383480054073696390}
-  - component: {fileID: 489978715439294997}
   - component: {fileID: 6582717135785035129}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6748,19 +6089,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &489978715439294997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7488200195401635938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &6582717135785035129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6786,11 +6114,10 @@ GameObject:
   - component: {fileID: 6613575036996296297}
   - component: {fileID: 7493417250613959460}
   - component: {fileID: 8475093874661775701}
-  - component: {fileID: 6479116005012743771}
   - component: {fileID: 8214148880994702760}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6873,19 +6200,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6479116005012743771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7568075482873476073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &8214148880994702760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6911,11 +6225,10 @@ GameObject:
   - component: {fileID: 2476785616577518314}
   - component: {fileID: 8518460655793171267}
   - component: {fileID: 7097409926066873582}
-  - component: {fileID: 6524277667148808978}
   - component: {fileID: 9146144678831021602}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6998,19 +6311,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6524277667148808978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7627538926808940190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &9146144678831021602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7036,11 +6336,10 @@ GameObject:
   - component: {fileID: 4718772818727791913}
   - component: {fileID: 2160433393531633727}
   - component: {fileID: 1842662243982872889}
-  - component: {fileID: 2459725375272854089}
   - component: {fileID: 7015585332765190383}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7123,19 +6422,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2459725375272854089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8226242830805613988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &7015585332765190383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7161,11 +6447,10 @@ GameObject:
   - component: {fileID: 5970217011962715032}
   - component: {fileID: 8990093502395802396}
   - component: {fileID: 2990531840477087602}
-  - component: {fileID: 5692387424798526470}
   - component: {fileID: 6429122512117926215}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7248,19 +6533,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &5692387424798526470
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8283540927043220455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &6429122512117926215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7286,11 +6558,10 @@ GameObject:
   - component: {fileID: 2701342093581852119}
   - component: {fileID: 31705810165424817}
   - component: {fileID: 1503923922654742166}
-  - component: {fileID: 114599712395395750}
   - component: {fileID: 4773462660918512440}
   m_Layer: 0
-  m_Name: 3
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7373,19 +6644,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &114599712395395750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8372926657933549508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &4773462660918512440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7411,11 +6669,10 @@ GameObject:
   - component: {fileID: 6781755478040363151}
   - component: {fileID: 3083646157434916637}
   - component: {fileID: 5838079304637311976}
-  - component: {fileID: 3508922386630137834}
   - component: {fileID: 237630824293832442}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7498,19 +6755,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &3508922386630137834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8429074232282715885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &237630824293832442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7568,11 +6812,10 @@ GameObject:
   - component: {fileID: 8630586210169715966}
   - component: {fileID: 4079043268286441118}
   - component: {fileID: 924398811976500544}
-  - component: {fileID: 1730444131594504679}
   - component: {fileID: 5219788429066919834}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7655,19 +6898,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1730444131594504679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8878282396621726274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &5219788429066919834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7693,11 +6923,10 @@ GameObject:
   - component: {fileID: 3602853974357157428}
   - component: {fileID: 3808363717074699333}
   - component: {fileID: 3694309077964694473}
-  - component: {fileID: 3586654120546401028}
   - component: {fileID: 2726989452073468114}
   m_Layer: 0
-  m_Name: 2
-  m_TagString: Shape
+  m_Name: Coin
+  m_TagString: Coin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7780,19 +7009,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &3586654120546401028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8917983114003089473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 3
 --- !u!114 &2726989452073468114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7818,11 +7034,10 @@ GameObject:
   - component: {fileID: 5650114595476797230}
   - component: {fileID: 5861138324872976639}
   - component: {fileID: 296127549292085939}
-  - component: {fileID: 5681192156814988443}
   - component: {fileID: 3542200378505534329}
   m_Layer: 0
-  m_Name: 1
-  m_TagString: Shape
+  m_Name: Armored
+  m_TagString: Armored
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7905,19 +7120,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &5681192156814988443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9100229314744083952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 1
 --- !u!114 &3542200378505534329
 MonoBehaviour:
   m_ObjectHideFlags: 0

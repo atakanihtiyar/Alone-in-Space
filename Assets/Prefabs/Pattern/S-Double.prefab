@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 2590859363165272921}
   - component: {fileID: 4553751406955281294}
   - component: {fileID: 1262499501266986301}
-  - component: {fileID: 7838972260479896679}
   - component: {fileID: 3985281504113764790}
+  - component: {fileID: 6994575010884273570}
   m_Layer: 0
-  m_Name: Shape
-  m_TagString: Shape
+  m_Name: DoubleCoin
+  m_TagString: DoubleCoin
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,19 +98,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7838972260479896679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1072199716377167186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myShapeType: 2
 --- !u!114 &3985281504113764790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,6 +112,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   key: 4
   currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
+--- !u!114 &6994575010884273570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072199716377167186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5710401662279380569
 GameObject:
   m_ObjectHideFlags: 0

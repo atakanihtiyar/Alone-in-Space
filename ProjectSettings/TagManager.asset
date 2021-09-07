@@ -4,6 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Coin
+  - DoubleCoin
+  - Armored
   - Shape
   layers:
   - Default
