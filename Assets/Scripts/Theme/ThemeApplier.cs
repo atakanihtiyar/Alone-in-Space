@@ -32,7 +32,7 @@ public class ThemeApplier : MonoBehaviour
 
     public void SetTheme()
     {
-        currentTheme = ThemeManager.instance.GetTheme();
+        currentTheme = ThemeManager.Instance.GetTheme();
         switch (key)
         {
             case ThemeKey.background:

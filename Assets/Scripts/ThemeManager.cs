@@ -3,9 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ThemeManager : MonoBehaviour
+public class ThemeManager : Singleton<ThemeManager>
 {
-    public static ThemeManager instance;
     public CanvasManager canvas;
 
     public int currentTheme;
@@ -13,11 +12,6 @@ public class ThemeManager : MonoBehaviour
 
     void Awake()
     {
-        if (instance == null)
-            instance = this;
-        else if (instance != this)
-            Destroy(gameObject);
-
         currentTheme = PlayerPrefs.GetInt("theme", 0);
     }
 

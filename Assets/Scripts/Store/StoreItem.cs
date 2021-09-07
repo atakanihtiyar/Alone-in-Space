@@ -22,12 +22,12 @@ public class StoreItem : MonoBehaviour
     {
         if (_theme.buyed)
         {
-            ThemeManager.instance.EquipTheme(_theme);
+            ThemeManager.Instance.EquipTheme(_theme);
         }
         else
         {
             buyText.text = "Equip";
-            ThemeManager.instance.BuyTheme(_theme);
+            ThemeManager.Instance.BuyTheme(_theme);
         }
     }
 

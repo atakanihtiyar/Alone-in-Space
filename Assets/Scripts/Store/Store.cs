@@ -17,7 +17,7 @@ public class Store : MonoBehaviour
     private void Awake()
     {
         storeItems = new List<StoreItem>();
-        themeManager = ThemeManager.instance;
+        themeManager = ThemeManager.Instance;
     }
 
     private void OnEnable()
