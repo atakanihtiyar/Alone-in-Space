@@ -34,20 +34,21 @@ public class CharacterMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Shape"))
+        if (collision.CompareTag("Coin"))
         {
-            Shape hitShape = collision.gameObject.GetComponent<Shape>();
-            
-            if (gameManager.currentGameState == GameState.PlayPattern)
-            {
-                Pattern pattern = hitShape.transform.parent.transform.parent.GetComponent<Pattern>();
-                pattern.deactivatedShapes.Add(hitShape.gameObject);
-                hitShape.gameObject.SetActive(false);
-            }
-            if (gameManager.currentGameState == GameState.PlayAbsoluteRandom)
-            {
-                Destroy(hitShape.transform.parent.gameObject);
-            }
+            gameManager.AddScore(1);
+            Destroy(Instantiate(scoreParticleEffect, transform.position, Quaternion.identity), 1f);
+        }
+        else if (collision.CompareTag("DoubleCoin"))
+        {
+            StartCoroutine(DoubleScored());
+            Destroy(Instantiate(doubleParticleEffect, transform.position, Quaternion.identity), 1f);
+        }
+        else if (collision.CompareTag("Armored"))
+        {
+            gameManager.GameOver();
+            Destroy(gameObject);
+            Destroy(Instantiate(armoredParticleEffect, transform.position, Quaternion.identity), 3f);
         }
     }
 
