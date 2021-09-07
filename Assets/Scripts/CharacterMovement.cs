@@ -37,24 +37,7 @@ public class CharacterMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Shape"))
         {
             Shape hitShape = collision.gameObject.GetComponent<Shape>();
-            if (hitShape.myShapeType == ShapeType.armored)
-            {
-                gameManager.GameOver();
-                Destroy(gameObject);
-                Destroy(Instantiate(armoredParticleEffect, hitShape.transform.position, Quaternion.identity), 3f);
-            }
-            else if (hitShape.myShapeType == ShapeType.doubleScore)
-            {
-                StartCoroutine(DoubleScored());
-                Destroy(Instantiate(doubleParticleEffect, hitShape.transform.position, Quaternion.identity), 1f);
-            }
-            else if (hitShape.myShapeType == ShapeType.score)
-            {
-                gameManager.AddScore(1);
-                Destroy(Instantiate(scoreParticleEffect, hitShape.transform.position, Quaternion.identity), 1f);
-            }
-
-
+            
             if (gameManager.currentGameState == GameState.PlayPattern)
             {
                 Pattern pattern = hitShape.transform.parent.transform.parent.GetComponent<Pattern>();
@@ -68,7 +51,7 @@ public class CharacterMovement : MonoBehaviour
         }
     }
 
-    private IEnumerator DoubleScored()
+    public IEnumerator DoubleScored()
     {
         animator.SetTrigger("blue");
         gameManager.isDoubleScore = true;
