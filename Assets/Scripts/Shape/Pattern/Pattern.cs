@@ -37,17 +37,17 @@ public class Pattern : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.currentGameState == GameState.PlayPattern)
+        if (GameManager.Instance.currentGameState == GameState.PlayPattern)
         {
             if (isShow)
-                myRigidbody2D.velocity = GameManager.instance.GetVelocity();
+                myRigidbody2D.velocity = GameManager.Instance.GetVelocity();
             else
                 myRigidbody2D.velocity = Vector3.zero;
         }
 
-        if (GameManager.instance.currentGameState == GameState.PlayAbsoluteRandom)
+        if (GameManager.Instance.currentGameState == GameState.PlayAbsoluteRandom)
         {
-            myRigidbody2D.velocity = GameManager.instance.GetVelocity();
+            myRigidbody2D.velocity = GameManager.Instance.GetVelocity();
         }
     }
 

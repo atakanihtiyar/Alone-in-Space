@@ -12,19 +12,7 @@ public enum ShapeType
 
 public class Shape : MonoBehaviour
 {
-    private GameManager gameManager;
-
     public ShapeType myShapeType;
-
-    private void Start()
-    {
-        gameManager = GameManager.instance;
-    }
-
-    void Update()
-    {
-
-    }
 
     public void ReactivateShape()
     {

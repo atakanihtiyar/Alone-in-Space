@@ -21,7 +21,7 @@ public class SpawnerPattern : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.currentGameState == GameState.PlayPattern)
+        if (GameManager.Instance.currentGameState == GameState.PlayPattern)
         {
             if (isFirstTime)
             {

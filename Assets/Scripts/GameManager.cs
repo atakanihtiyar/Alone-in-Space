@@ -13,9 +13,8 @@ public enum GameState
     mainMenu
 }
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
-    public static GameManager instance;
     public CanvasManager canvas;
 
     public GameState currentGameState;
@@ -36,11 +35,6 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        if (instance == null)
-            instance = this;
-        else if (instance != this)
-            Destroy(gameObject);
-
         currentGameState = GameState.mainMenu;
         SpeedUp();
 

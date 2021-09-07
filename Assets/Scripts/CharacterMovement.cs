@@ -20,7 +20,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
-        gameManager = GameManager.instance;
+        gameManager = GameManager.Instance;
 
         animator = GetComponent<Animator>();
 

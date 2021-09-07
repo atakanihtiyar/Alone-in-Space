@@ -11,7 +11,7 @@ public class ScrollingBackground : MonoBehaviour
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
-        gameManager = GameManager.instance;
+        gameManager = GameManager.Instance;
     }
 
     // Update is called once per frame

@@ -28,10 +28,10 @@ public class CanvasManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Int32.Parse(scoreTextPTIP.text) != GameManager.instance.totalScore &&
-            GameManager.instance.currentGameState == GameState.PlayAbsoluteRandom || GameManager.instance.currentGameState == GameState.PlayPattern)
+        if (Int32.Parse(scoreTextPTIP.text) != GameManager.Instance.totalScore &&
+            GameManager.Instance.currentGameState == GameState.PlayAbsoluteRandom || GameManager.Instance.currentGameState == GameState.PlayPattern)
         {
-            scoreTextPTIP.text = GameManager.instance.totalScore.ToString();
+            scoreTextPTIP.text = GameManager.Instance.totalScore.ToString();
         }
     }
 
@@ -39,31 +39,31 @@ public class CanvasManager : MonoBehaviour
     {
         mainMenuPanel.SetActive(false);
         playTimeInfoPanel.SetActive(true);
-        GameManager.instance.PlayAbsoluteRandom();
+        GameManager.Instance.PlayAbsoluteRandom();
     }
 
     public void PlayPattern()
     {
         mainMenuPanel.SetActive(false);
         playTimeInfoPanel.SetActive(true);
-        GameManager.instance.PlayPattern();
+        GameManager.Instance.PlayPattern();
     }
 
     public void Pause()
     {
-        GameManager.instance.GamePause();
+        GameManager.Instance.GamePause();
         pausePanel.SetActive(true);
     }
 
     public void Resume()
     {
-        GameManager.instance.GameResume();
+        GameManager.Instance.GameResume();
         pausePanel.SetActive(false);
     }
 
     public void Quit()
     {
-        GameManager.instance.GameQuit();
+        GameManager.Instance.GameQuit();
     }
 
     public void GameOver(int coin, int score)
@@ -75,7 +75,7 @@ public class CanvasManager : MonoBehaviour
 
     public void Restart()
     {
-        GameManager.instance.Restart();
+        GameManager.Instance.Restart();
     }
 
     public void OpenStore()

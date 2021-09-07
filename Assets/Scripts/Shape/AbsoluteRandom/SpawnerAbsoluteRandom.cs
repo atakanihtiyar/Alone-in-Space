@@ -29,7 +29,7 @@ public class SpawnerAbsoluteRandom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.instance.currentGameState == GameState.PlayAbsoluteRandom)
+        if (GameManager.Instance.currentGameState == GameState.PlayAbsoluteRandom)
         {
             if (isSpawning == false)
             {
@@ -67,7 +67,7 @@ public class SpawnerAbsoluteRandom : MonoBehaviour
     {
         yield return new WaitForSeconds(startWait);
 
-        while (GameManager.instance.currentGameState == GameState.PlayAbsoluteRandom)
+        while (GameManager.Instance.currentGameState == GameState.PlayAbsoluteRandom)
         {
             randShape = PickRandomShape();
             if (randShape == -1)
