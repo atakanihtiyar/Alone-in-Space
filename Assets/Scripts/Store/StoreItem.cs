@@ -43,8 +43,6 @@ public class StoreItem : MonoBehaviour
         nameText.text = theme.name;
         descriptionText.text = theme.description;
 
-        buyText.text = theme.buyed ? "Equip" : theme.cost.ToString();
-
         if (theme.buyed)
         {
             buyText.text = "Equip";
