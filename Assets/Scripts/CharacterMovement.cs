@@ -12,43 +12,24 @@ public class CharacterMovement : MonoBehaviour
     public GameObject doubleParticleEffect;
     public GameObject scoreParticleEffect;
 
-    private bool isGoingRight;
     private float angle = 0;
-    public float maxAngle;
-    public float minAngle;
-    public float acceleration;
+    public float maxAngle = 40;
+    public float minAngle = -40;
+    public float acceleration = 20;
 
     void Start()
     {
         gameManager = GameManager.Instance;
 
         animator = GetComponent<Animator>();
-
-        isGoingRight = gameManager.isGoingRight;
-        if (isGoingRight)
-            angle = 40;
-        else
-            angle = -40;
     }
 
     void Update()
     {
-        if (gameManager.currentGameState == GameState.PlayAbsoluteRandom || gameManager.currentGameState == GameState.PlayPattern || gameManager.currentGameState == GameState.mainMenu)
-        {
-            isGoingRight = gameManager.isGoingRight;
+        angle += gameManager.isGoingRight ? acceleration : -acceleration;
+        angle = Mathf.Clamp(angle, minAngle, maxAngle);
 
-            if (isGoingRight)
-            {
-                if (angle < maxAngle)
-                    angle += acceleration;
-            }
-            else
-            {
-                if (angle > minAngle)
-                    angle -= acceleration;
-            }
-            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
-        }
+        transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
