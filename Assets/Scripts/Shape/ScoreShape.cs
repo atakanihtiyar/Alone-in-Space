@@ -11,7 +11,7 @@ public class ScoreShape : Shape
         CharacterMovement characterMovement = collision.GetComponent<CharacterMovement>();
         if (characterMovement.CompareTag("Player"))
         {
-            GameManager.Instance.AddScore(1);
+            CoinController.Instance.AddToTempCoin(1);
             Destroy(Instantiate(particleEffect, transform.position, Quaternion.identity), 1f);
         }
     }

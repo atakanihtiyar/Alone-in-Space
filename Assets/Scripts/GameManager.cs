@@ -29,9 +29,6 @@ public class GameManager : Singleton<GameManager>
 
     private Vector2 touchOrigin = -Vector2.one;
 
-    public int totalScore = 0;
-    public bool isDoubleScore = false;
-
     // Start is called before the first frame update
     protected override void Awake()
     {
@@ -77,27 +74,11 @@ public class GameManager : Singleton<GameManager>
             speedMultiple += acceleration * Time.deltaTime;
     }
 
-    public void AddScore(int coin)
-    {
-        if (currentGameState == GameState.gameOver)
-            return;
-
-        if (isDoubleScore)
-            totalScore += coin * 2;
-        else
-            totalScore += coin;
-    }
-
     public void GameOver()
     {
         speedMultiple = 0;
-
-        int coin = PlayerPrefs.GetInt("totalCoin", 0);
-        int score = totalScore;
-        canvas.GameOver(coin + score, score);
-
-        PlayerPrefs.SetInt("totalCoin", coin + score);
-
+        canvas.GameOver();
+        CoinController.Instance.GameOver();
         currentGameState = GameState.gameOver;
     }
     

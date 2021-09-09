@@ -19,8 +19,7 @@ public class ThemeManager : Singleton<ThemeManager>
 
     public void BuyTheme(Theme themeToBuy)
     {
-        int totalCoin = PlayerPrefs.GetInt("totalCoin");
-        PlayerPrefs.SetInt("totalCoin", totalCoin - themes[currentTheme].cost);
+        CoinController.Instance.AddToTotalCoin(-themes[currentTheme].cost);
 
         currentTheme = themes.IndexOf(themeToBuy);
         themes[currentTheme].buyed = true;

@@ -13,28 +13,6 @@ public class CanvasManager : MonoBehaviour
     public GameObject storePanel;
     public GameObject gameOverPanel;
 
-    public Text scoreTextPTIP;
-    public Text scoreTextGOP;
-    public Text coinText;
-
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Int32.Parse(scoreTextPTIP.text) != GameManager.Instance.totalScore &&
-            GameManager.Instance.currentGameState == GameState.PlayAbsoluteRandom || GameManager.Instance.currentGameState == GameState.PlayPattern)
-        {
-            scoreTextPTIP.text = GameManager.Instance.totalScore.ToString();
-        }
-    }
-
     public void PlayAbsoluteRandom()
     {
         mainMenuPanel.SetActive(false);
@@ -66,10 +44,8 @@ public class CanvasManager : MonoBehaviour
         GameManager.Instance.GameQuit();
     }
 
-    public void GameOver(int coin, int score)
+    public void GameOver()
     {
-        coinText.text = "Your Total Coin: " + coin;
-        scoreTextGOP.text = "You Collected Coin: " + score;
         gameOverPanel.SetActive(true);
     }
 

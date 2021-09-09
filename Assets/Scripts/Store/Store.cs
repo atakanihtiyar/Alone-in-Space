@@ -10,9 +10,6 @@ public class Store : MonoBehaviour
     private ThemeManager themeManager;
     public GameObject itemPrefab;
     public GameObject scrollViewContent;
-    public Text coinText;
-
-    private int totalCoin;
 
     private void Awake()
     {
@@ -22,8 +19,6 @@ public class Store : MonoBehaviour
 
     private void OnEnable()
     {
-        totalCoin = PlayerPrefs.GetInt("totalCoin");
-        coinText.text = totalCoin.ToString();
         CreateStoreItems();
     }
 
@@ -37,7 +32,7 @@ public class Store : MonoBehaviour
         for (int i = 0; i < themeManager.themes.Count; i++)
         {
             storeItems.Add(Instantiate(itemPrefab, scrollViewContent.transform).GetComponent<StoreItem>());
-            storeItems[i].SetItemInfo(themeManager.themes[i], totalCoin);
+            storeItems[i].SetItemInfo(themeManager.themes[i]);
         }
     }
 

@@ -36,7 +36,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if (collision.CompareTag("Coin"))
         {
-            gameManager.AddScore(1);
+            CoinController.Instance.AddToTempCoin(1);
             Destroy(Instantiate(scoreParticleEffect, transform.position, Quaternion.identity), 1f);
         }
         else if (collision.CompareTag("DoubleCoin"))
@@ -55,9 +55,9 @@ public class CharacterMovement : MonoBehaviour
     public IEnumerator DoubleScored()
     {
         animator.SetTrigger("blue");
-        gameManager.isDoubleScore = true;
+        CoinController.Instance.IsDoubleCoin = true;
         yield return new WaitForSeconds(4f);
         animator.SetTrigger("white");
-        gameManager.isDoubleScore = false;
+        CoinController.Instance.IsDoubleCoin = false;
     }
 }

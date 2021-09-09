@@ -31,7 +31,7 @@ public class StoreItem : MonoBehaviour
         }
     }
 
-    public void SetItemInfo(Theme theme, int totalCoin)
+    public void SetItemInfo(Theme theme)
     {
         _theme = theme;
 
@@ -47,7 +47,7 @@ public class StoreItem : MonoBehaviour
         {
             buyText.text = "Equip";
         }
-        else if (totalCoin < theme.cost)
+        else if (CoinController.Instance.TotalCoin < theme.cost)
         {
             buyText.text = "Insufficient Funds";
             buyButton.interactable = false;
