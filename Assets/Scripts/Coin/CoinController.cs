@@ -42,4 +42,9 @@ public class CoinController : Singleton<CoinController>
 
         return true;
     }
+
+    public void GameOver()
+    {
+        AddToTotalCoin(TempCoin);
+    }
 }
