@@ -9,6 +9,12 @@ public class Notify : Singleton<Notify>
     public Image backgroundImage;
     public Text notifyText;
 
+    protected override void Awake()
+    {
+        base.Awake();
+        gameObject.SetActive(false);
+    }
+
     public void Show(string message, Color backgroundColor, Color textColor, float waitTime)
     {
         backgroundImage = GetComponent<Image>();
