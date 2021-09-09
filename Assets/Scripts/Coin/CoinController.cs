@@ -10,10 +10,12 @@ public class CoinController : Singleton<CoinController>
 
     public int TotalCoin { get; set; }
     public int TempCoin { get; set; }
+    public bool IsDoubleScore { get; set; }
 
     private void OnEnable()
     {
         TotalCoin = PlayerPrefs.GetInt("totalCoin", 0);
+        IsDoubleScore = false;
     }
 
     private void OnDisable()
@@ -23,7 +25,8 @@ public class CoinController : Singleton<CoinController>
 
     public void AddToCoin(int amount)
     {
-        TempCoin += amount;
+        TempCoin += IsDoubleScore ? amount * 2 : amount;
+
         OnTempCoinChange?.Invoke(TempCoin);
     }
 
