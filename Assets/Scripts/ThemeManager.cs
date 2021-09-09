@@ -13,14 +13,11 @@ public class ThemeManager : Singleton<ThemeManager>
     protected override void Awake()
     {
         base.Awake();
-
         currentTheme = PlayerPrefs.GetInt("theme", 0);
     }
 
     public void BuyTheme(Theme themeToBuy)
     {
-        CoinController.Instance.AddToTotalCoin(-themes[currentTheme].cost);
-
         currentTheme = themes.IndexOf(themeToBuy);
         themes[currentTheme].buyed = true;
         PlayerPrefs.SetInt("theme", currentTheme);
