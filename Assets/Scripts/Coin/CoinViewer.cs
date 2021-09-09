@@ -13,16 +13,6 @@ public class CoinViewer : MonoBehaviour
         coinController = CoinController.Instance;
         coinText = GetComponentInChildren<Text>();
     }
-    
-    protected virtual void OnEnable()
-    {
-        coinController.OnTempCoinChange += UpdateText;
-    }
-
-    private void OnDisable()
-    {
-        coinController.OnTempCoinChange -= UpdateText;
-    }
 
     protected virtual void UpdateText(int coin)
     {
