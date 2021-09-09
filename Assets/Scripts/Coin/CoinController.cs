@@ -23,15 +23,23 @@ public class CoinController : Singleton<CoinController>
         PlayerPrefs.SetInt("totalCoin", TotalCoin);
     }
 
-    public void AddToTempCoin(int amount)
+    public bool AddToTempCoin(int amount)
     {
+        if ((TotalCoin + amount) < 0) return false;
+
         TempCoin += IsDoubleCoin ? amount * 2 : amount;
         OnTempCoinChange?.Invoke(TempCoin);
+
+        return true;
     }
 
-    public void AddToTotalCoin(int amount)
+    public bool AddToTotalCoin(int amount)
     {
+        if ((TotalCoin + amount) < 0) return false;
+
         TotalCoin += amount;
         OnTotalCoinChange?.Invoke(TotalCoin);
+
+        return true;
     }
 }
