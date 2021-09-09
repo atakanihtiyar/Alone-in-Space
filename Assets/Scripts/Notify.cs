@@ -9,6 +9,8 @@ public class Notify : Singleton<Notify>
     public Image backgroundImage;
     public Text notifyText;
 
+    private Coroutine hideCoroutine;
+
     protected override void Awake()
     {
         base.Awake();
@@ -27,11 +29,16 @@ public class Notify : Singleton<Notify>
 
         gameObject.SetActive(true);
 
-        Invoke("Hide", waitTime);
+        if (hideCoroutine != null)
+            StopCoroutine(hideCoroutine);
+
+        StartCoroutine(Hide(waitTime));
     }
 
-    private void Hide()
+    private IEnumerator Hide(float waitTime)
     {
+        yield return new WaitForSecondsRealtime(waitTime);
+
         notifyText.text = "";
         gameObject.SetActive(false);
     }
