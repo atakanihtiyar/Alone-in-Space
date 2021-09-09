@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameStateController : MonoBehaviour
+public class GameStateController : Singleton<GameStateController>
 {
     private GameBaseState currentState;
 
