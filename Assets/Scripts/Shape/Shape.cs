@@ -13,15 +13,8 @@ public class Shape : MonoBehaviour
     {
         if (!collision.CompareTag("Player")) return;
 
-        if (GameManager.Instance.currentGameState == GameState.PlayPattern)
-        {
-            Pattern pattern = GetComponentInParent<Pattern>();
-            pattern.deactivatedShapes.Add(gameObject);
-            gameObject.SetActive(false);
-        }
-        if (GameManager.Instance.currentGameState == GameState.PlayAbsoluteRandom)
-        {
-            Destroy(transform.parent.gameObject);
-        }
+        Pattern pattern = GetComponentInParent<Pattern>();
+        pattern.deactivatedShapes.Add(gameObject);
+        gameObject.SetActive(false);
     }
 }

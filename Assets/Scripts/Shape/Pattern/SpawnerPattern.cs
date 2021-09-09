@@ -21,43 +21,41 @@ public class SpawnerPattern : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.Instance.currentGameState == GameState.PlayPattern)
+        if (GameStateController.Instance.CurrentState != GameStateController.Instance.PlayState) return;
+        if (isFirstTime)
         {
-            if (isFirstTime)
-            {
-                shapes = new GameObject[shapePrefabs.Length];
+            shapes = new GameObject[shapePrefabs.Length];
 
-                //create one each pattern
-                for (int i = 0; i < shapes.Length; i++)
-                {
-                    shapes[i] = (GameObject)Instantiate(shapePrefabs[i], objectPoolPosition, Quaternion.identity);
-                    pureTotalPossibility += shapes[i].GetComponent<Pattern>().possibility;
-                }
-                currentPattern = PickPattern();
-                //shapes[currentPattern].GetComponent<Pattern>().isShow = true;
-                isFirstTime = false;
-            }
-            else
+            //create one each pattern
+            for (int i = 0; i < shapes.Length; i++)
             {
-                Pattern cPattern = shapes[currentPattern].GetComponent<Pattern>();
-                //current pattern out of the camera
-                if (shapes[currentPattern].transform.position.y + cPattern.maxPosY < deactivePositionY)
-                {
-                    //set last pattern and new current pattern
-                    shapes[lastPattern].GetComponent<Pattern>().isShow = false;
-                    lastPattern = currentPattern;
-                    do
-                    {
-                        currentPattern = PickPattern();
-                    } while (lastPattern == currentPattern);
-
-                    //set current pattern possition
-                    shapes[currentPattern].transform.position = new Vector3(0, spawnYPosition - cPattern.minPosY, 0);
-                    shapes[currentPattern].GetComponent<Pattern>().ReActivateObjects();
-                    shapes[currentPattern].GetComponent<Pattern>().isShow = true;
-                }
+                shapes[i] = (GameObject)Instantiate(shapePrefabs[i], objectPoolPosition, Quaternion.identity);
+                pureTotalPossibility += shapes[i].GetComponent<Pattern>().possibility;
             }
-        }     
+            currentPattern = PickPattern();
+            //shapes[currentPattern].GetComponent<Pattern>().isShow = true;
+            isFirstTime = false;
+        }
+        else
+        {
+            Pattern cPattern = shapes[currentPattern].GetComponent<Pattern>();
+            //current pattern out of the camera
+            if (shapes[currentPattern].transform.position.y + cPattern.maxPosY < deactivePositionY)
+            {
+                //set last pattern and new current pattern
+                shapes[lastPattern].GetComponent<Pattern>().isShow = false;
+                lastPattern = currentPattern;
+                do
+                {
+                    currentPattern = PickPattern();
+                } while (lastPattern == currentPattern);
+
+                //set current pattern possition
+                shapes[currentPattern].transform.position = new Vector3(0, spawnYPosition - cPattern.minPosY, 0);
+                shapes[currentPattern].GetComponent<Pattern>().ReActivateObjects();
+                shapes[currentPattern].GetComponent<Pattern>().isShow = true;
+            }
+        }
     }
 
     private int PickPattern()

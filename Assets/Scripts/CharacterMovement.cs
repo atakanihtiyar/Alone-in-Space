@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    private GameManager gameManager;
+    private GameStateController gameStateController;
 
     private Animator animator;
 
@@ -15,18 +15,18 @@ public class CharacterMovement : MonoBehaviour
     private float angle = 0;
     public float maxAngle = 40;
     public float minAngle = -40;
-    public float acceleration = 20;
+    public float turnSpeed = 20;
 
     void Start()
     {
-        gameManager = GameManager.Instance;
+        gameStateController = GameStateController.Instance;
 
         animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        angle += gameManager.isGoingRight ? acceleration : -acceleration;
+        angle += gameStateController.movementDirectionVector.x >  0 ? turnSpeed : -turnSpeed;
         angle = Mathf.Clamp(angle, minAngle, maxAngle);
 
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
@@ -46,7 +46,7 @@ public class CharacterMovement : MonoBehaviour
         }
         else if (collision.CompareTag("Armored"))
         {
-            gameManager.GameOver();
+            gameStateController.TransitionToState(gameStateController.OverState);
             Destroy(gameObject);
             Destroy(Instantiate(armoredParticleEffect, transform.position, Quaternion.identity), 3f);
         }

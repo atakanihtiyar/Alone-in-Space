@@ -5,13 +5,13 @@ using UnityEngine;
 public class ScrollingBackground : MonoBehaviour
 {
     private Rigidbody2D myRigidbody;
-    private GameManager gameManager;
+    private GameStateController gameStateController;
 
     // Start is called before the first frame update
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
-        gameManager = GameManager.Instance;
+        gameStateController = GameStateController.Instance;
     }
 
     // Update is called once per frame
@@ -27,7 +27,7 @@ public class ScrollingBackground : MonoBehaviour
         if (transform.position.y > -myRenderer.bounds.size.y)
         {
             //just slide down
-            myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, gameManager.GetVelocity().y);
+            myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, gameStateController.Velocity.y);
         }
         else
         {

@@ -7,7 +7,6 @@ public class Pattern : MonoBehaviour
     private Rigidbody2D myRigidbody2D;
     public float possibility;
 
-
     [Header("For Pattern")]
     public List<GameObject> deactivatedShapes = new List<GameObject>();
     public bool isShow;
@@ -37,18 +36,10 @@ public class Pattern : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.Instance.currentGameState == GameState.PlayPattern)
-        {
-            if (isShow)
-                myRigidbody2D.velocity = GameManager.Instance.GetVelocity();
-            else
-                myRigidbody2D.velocity = Vector3.zero;
-        }
-
-        if (GameManager.Instance.currentGameState == GameState.PlayAbsoluteRandom)
-        {
-            myRigidbody2D.velocity = GameManager.Instance.GetVelocity();
-        }
+        if (isShow)
+            myRigidbody2D.velocity = GameStateController.Instance.Velocity;
+        else
+            myRigidbody2D.velocity = Vector3.zero;
     }
 
     public void ReActivateObjects()

@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GamePauseState : GameBaseState
+public class GameOverState : GameBaseState
 {
     public override void EnterState(GameStateController stateController)
     {
-        Time.timeScale = 0f;
+        stateController.speedMultiplier = 0;
+        stateController.canvas.GameOver();
+        CoinController.Instance.GameOver();
     }
 
     public override void Update(GameStateController stateController)

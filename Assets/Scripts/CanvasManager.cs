@@ -13,35 +13,28 @@ public class CanvasManager : MonoBehaviour
     public GameObject storePanel;
     public GameObject gameOverPanel;
 
-    public void PlayAbsoluteRandom()
-    {
-        mainMenuPanel.SetActive(false);
-        playTimeInfoPanel.SetActive(true);
-        GameManager.Instance.PlayAbsoluteRandom();
-    }
-
     public void PlayPattern()
     {
         mainMenuPanel.SetActive(false);
         playTimeInfoPanel.SetActive(true);
-        GameManager.Instance.PlayPattern();
+        GameStateController.Instance.Play();
     }
 
     public void Pause()
     {
-        GameManager.Instance.GamePause();
+        GameStateController.Instance.GamePause();
         pausePanel.SetActive(true);
     }
 
     public void Resume()
     {
-        GameManager.Instance.GameResume();
+        GameStateController.Instance.Play();
         pausePanel.SetActive(false);
     }
 
     public void Quit()
     {
-        GameManager.Instance.GameQuit();
+        GameStateController.Instance.GameQuit();
     }
 
     public void GameOver()
@@ -51,7 +44,7 @@ public class CanvasManager : MonoBehaviour
 
     public void Restart()
     {
-        GameManager.Instance.Restart();
+        GameStateController.Instance.Restart();
     }
 
     public void OpenStore()

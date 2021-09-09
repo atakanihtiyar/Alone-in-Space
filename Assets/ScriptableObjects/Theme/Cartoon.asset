@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Cartoon
   m_EditorClassIdentifier: 
   description: cartoon style
-  cost: 1000
-  buyed: 0
+  cost: 100
+  buyed: 1
   none: {fileID: 0}
   background: {fileID: 21300000, guid: dedbef526cf5a3245be9a966addbfb37, type: 3}
   ship: {fileID: 0}
