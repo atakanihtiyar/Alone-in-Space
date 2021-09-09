@@ -12,6 +12,7 @@ public class Notify : Singleton<Notify>
     protected override void Awake()
     {
         base.Awake();
+        GetComponent<CanvasGroup>().alpha = 1;
         gameObject.SetActive(false);
     }
 
