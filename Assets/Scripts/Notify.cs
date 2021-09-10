@@ -32,7 +32,7 @@ public class Notify : Singleton<Notify>
         if (hideCoroutine != null)
             StopCoroutine(hideCoroutine);
 
-        StartCoroutine(Hide(waitTime));
+        hideCoroutine = StartCoroutine(Hide(waitTime));
     }
 
     private IEnumerator Hide(float waitTime)
