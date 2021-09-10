@@ -37,7 +37,7 @@ public class Pattern : MonoBehaviour
     void Update()
     {
         if (isShow)
-            myRigidbody2D.velocity = GameStateController.Instance.Velocity;
+            myRigidbody2D.velocity = MovementManager.Instance.GetVelocity();
         else
             myRigidbody2D.velocity = Vector3.zero;
     }

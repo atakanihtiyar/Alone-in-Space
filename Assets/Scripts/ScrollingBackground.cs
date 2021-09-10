@@ -27,7 +27,7 @@ public class ScrollingBackground : MonoBehaviour
         if (transform.position.y > -myRenderer.bounds.size.y)
         {
             //just slide down
-            myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, gameStateController.Velocity.y);
+            myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, MovementManager.Instance.GetVelocity().y);
         }
         else
         {

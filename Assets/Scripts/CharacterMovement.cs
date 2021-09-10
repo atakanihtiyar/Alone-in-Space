@@ -26,7 +26,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Update()
     {
-        angle += gameStateController.movementDirectionVector.x >  0 ? turnSpeed : -turnSpeed;
+        angle += MovementManager.Instance.movementDirectionVector.x >  0 ? turnSpeed : -turnSpeed;
         angle = Mathf.Clamp(angle, minAngle, maxAngle);
 
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);

@@ -7,11 +7,11 @@ public class GamePlayState : GameBaseState
     public override void EnterState(GameStateController stateController)
     {
         Time.timeScale = 1f;
-        stateController.SpeedUp();
+        MovementManager.Instance.SpeedUp();
     }
 
     public override void Update(GameStateController stateController)
     {
-        stateController.SpeedUp();
+        MovementManager.Instance.SpeedUp();
     }
 }

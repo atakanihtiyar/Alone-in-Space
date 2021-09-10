@@ -22,7 +22,7 @@ public class CanvasManager : MonoBehaviour
 
     public void Pause()
     {
-        GameStateController.Instance.GamePause();
+        GameStateController.Instance.Pause();
         pausePanel.SetActive(true);
     }
 
