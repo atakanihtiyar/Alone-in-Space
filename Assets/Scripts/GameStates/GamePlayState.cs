@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class GamePlayState : GameBaseState
 {
-    //SpawnerPattern spawner;
-
     public override void EnterState(GameStateController stateController)
     {
         Time.timeScale = 1f;
         stateController.SpeedUp();
-
-        //if (spawner == null)
-            //SpawnerPattern spawner = new GameObject("patternSpawner").AddComponent<SpawnerPattern>();
     }
 
     public override void Update(GameStateController stateController)
