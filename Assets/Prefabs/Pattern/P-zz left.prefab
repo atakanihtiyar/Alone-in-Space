@@ -743,7 +743,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   possibility: 1
   deactivatedShapes: []
-  isShow: 0
   maxPosY: 0
   minPosY: 0
 --- !u!1 &1289664206915987322

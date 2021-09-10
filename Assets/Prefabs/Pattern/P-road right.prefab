@@ -2246,9 +2246,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4e144fbbcc0e344a801fe7c9bb96d70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  possibility: 5
+  possibility: 4
   deactivatedShapes: []
-  isShow: 0
   maxPosY: 0
   minPosY: 0
 --- !u!1 &1289664206915987322

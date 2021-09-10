@@ -14,7 +14,7 @@ public class Shape : MonoBehaviour
         if (!collision.CompareTag("Player")) return;
 
         Pattern pattern = GetComponentInParent<Pattern>();
-        pattern.deactivatedShapes.Add(gameObject);
+        pattern.deactivatedShapes.Add(this);
         gameObject.SetActive(false);
     }
 }
