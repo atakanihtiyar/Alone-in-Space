@@ -10,7 +10,7 @@ public class UpgradedMonoBehaviour : MonoBehaviour
     protected static ThemeManager themeManager;
     protected static Notify notify;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         gameStateController = GameStateController.Instance;
         movementManager = MovementManager.Instance;
