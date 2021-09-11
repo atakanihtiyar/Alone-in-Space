@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class Pattern : MonoBehaviour
+public class Pattern : UpgradedMonoBehaviour
 {
     private static float totalPossibility = 0f;
     public static float TotalPossibility { get => totalPossibility; private set => totalPossibility = value; }
@@ -32,7 +32,7 @@ public class Pattern : MonoBehaviour
     void Update()
     {
         if (IsShowing())
-            myRigidbody2D.velocity = MovementManager.Instance.GetVelocity();
+            myRigidbody2D.velocity = movementManager.GetVelocity();
         else
             myRigidbody2D.velocity = Vector3.zero;
     }

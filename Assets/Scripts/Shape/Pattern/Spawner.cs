@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
+public class Spawner : UpgradedMonoBehaviour
 {
     public GameObject[] patternPrefabs;
     public List<Pattern> patterns;
@@ -21,7 +21,7 @@ public class Spawner : MonoBehaviour
 
     void Update()
     {
-        if (GameStateController.Instance.CurrentState != GameStateController.Instance.PlayState) return;
+        if (gameStateController.CurrentState != gameStateController.PlayState) return;
         if (isCreatingContinue) return;
         if (patterns[currentPattern].IsShowing()) return;
 

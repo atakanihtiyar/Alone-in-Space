@@ -14,7 +14,7 @@ public enum ThemeKey
     uiScore
 }
 
-public class ThemeApplier : MonoBehaviour
+public class ThemeApplier : UpgradedMonoBehaviour
 {
     private SpriteRenderer mySpriteRenderer;
 
@@ -29,18 +29,18 @@ public class ThemeApplier : MonoBehaviour
 
     private void OnEnable()
     {
-        ThemeManager.Instance.ThemeChanged += SetTheme;
+        themeManager.ThemeChanged += SetTheme;
         SetTheme();
     }
 
     private void OnDisable()
     {
-        ThemeManager.Instance.ThemeChanged -= SetTheme;
+        themeManager.ThemeChanged -= SetTheme;
     }
 
     public void SetTheme()
     {
-        currentTheme = ThemeManager.Instance.GetTheme();
+        currentTheme = themeManager.GetTheme();
         switch (key)
         {
             case ThemeKey.background:

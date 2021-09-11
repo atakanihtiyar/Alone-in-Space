@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CoinViewer : MonoBehaviour
+public class CoinViewer : UpgradedMonoBehaviour
 {
-    protected CoinController coinController;
     private Text coinText;
 
     private void Awake()

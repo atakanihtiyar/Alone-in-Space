@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StoreItem : MonoBehaviour
+public class StoreItem : UpgradedMonoBehaviour
 {
     public Theme _theme;
 
@@ -20,27 +20,27 @@ public class StoreItem : MonoBehaviour
 
     private void OnEnable()
     {
-        CoinController.Instance.OnTotalCoinChange += SetCostButtonInfo;
+        coinController.OnTotalCoinChange += SetCostButtonInfo;
     }
 
     private void OnDisable()
     {
-        CoinController.Instance.OnTotalCoinChange -= SetCostButtonInfo;
+        coinController.OnTotalCoinChange -= SetCostButtonInfo;
     }
 
     public void OnClick()
     {
         if (_theme.buyed)
         {
-            ThemeManager.Instance.EquipTheme(_theme);
+            themeManager.EquipTheme(_theme);
         }
         else
         {
-            bool isBuySuccessful = CoinController.Instance.AddToTotalCoin(-_theme.cost);
+            bool isBuySuccessful = coinController.AddToTotalCoin(-_theme.cost);
             if (!isBuySuccessful) return;
 
             buyText.text = "Equip";
-            ThemeManager.Instance.BuyTheme(_theme);
+            themeManager.BuyTheme(_theme);
         }
     }
 
@@ -56,7 +56,7 @@ public class StoreItem : MonoBehaviour
         nameText.text = theme.name;
         descriptionText.text = theme.description;
 
-        SetCostButtonInfo(CoinController.Instance.TotalCoin);
+        SetCostButtonInfo(coinController.TotalCoin);
     }
 
     public void SetCostButtonInfo(int totalCoin)

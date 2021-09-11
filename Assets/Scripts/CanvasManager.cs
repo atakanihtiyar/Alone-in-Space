@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CanvasManager : MonoBehaviour
+public class CanvasManager : UpgradedMonoBehaviour
 {
     public GameObject mainMenuPanel;
     public GameObject playTimeInfoPanel;
@@ -17,24 +17,24 @@ public class CanvasManager : MonoBehaviour
     {
         mainMenuPanel.SetActive(false);
         playTimeInfoPanel.SetActive(true);
-        GameStateController.Instance.Play();
+        gameStateController.Play();
     }
 
     public void Pause()
     {
-        GameStateController.Instance.Pause();
+        gameStateController.Pause();
         pausePanel.SetActive(true);
     }
 
     public void Resume()
     {
-        GameStateController.Instance.Play();
+        gameStateController.Play();
         pausePanel.SetActive(false);
     }
 
     public void Quit()
     {
-        GameStateController.Instance.GameQuit();
+        gameStateController.GameQuit();
     }
 
     public void GameOver()
@@ -44,7 +44,7 @@ public class CanvasManager : MonoBehaviour
 
     public void Restart()
     {
-        GameStateController.Instance.Restart();
+        gameStateController.Restart();
     }
 
     public void OpenStore()
@@ -59,7 +59,7 @@ public class CanvasManager : MonoBehaviour
 
     public void HowToNotify()
     {
-        Notify.Instance.Show("Tap for change direction\n" + 
+        notify.Show("Tap for change direction\n" + 
             "Don't hit meteors(red)\n" + 
             "Collect coins(yellow) and double coin(blue)", Color.blue, Color.white, 5f);
     }

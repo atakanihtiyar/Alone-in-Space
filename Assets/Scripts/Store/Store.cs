@@ -4,10 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Store : MonoBehaviour
+public class Store : UpgradedMonoBehaviour
 {
     private List<StoreItem> storeItems;
-    private ThemeManager themeManager;
     public GameObject itemPrefab;
     public GameObject scrollViewContent;
 

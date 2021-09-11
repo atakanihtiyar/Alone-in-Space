@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMovement : MonoBehaviour
+public class CharacterMovement : UpgradedMonoBehaviour
 {
-    private GameStateController gameStateController;
-
     private Animator animator;
 
     public GameObject armoredParticleEffect;
@@ -19,14 +17,12 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
-        gameStateController = GameStateController.Instance;
-
         animator = GetComponent<Animator>();
     }
 
     void Update()
     {
-        angle += MovementManager.Instance.movementDirectionVector.x >  0 ? turnSpeed : -turnSpeed;
+        angle += movementManager.movementDirectionVector.x >  0 ? turnSpeed : -turnSpeed;
         angle = Mathf.Clamp(angle, minAngle, maxAngle);
 
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
@@ -36,7 +32,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if (collision.CompareTag("Coin"))
         {
-            CoinController.Instance.AddToTempCoin(1);
+            coinController.AddToTempCoin(1);
             Destroy(Instantiate(scoreParticleEffect, transform.position, Quaternion.identity), 1f);
         }
         else if (collision.CompareTag("DoubleCoin"))
@@ -55,9 +51,9 @@ public class CharacterMovement : MonoBehaviour
     public IEnumerator DoubleScored()
     {
         animator.SetTrigger("blue");
-        CoinController.Instance.IsDoubleCoin = true;
+        coinController.IsDoubleCoin = true;
         yield return new WaitForSeconds(4f);
         animator.SetTrigger("white");
-        CoinController.Instance.IsDoubleCoin = false;
+        coinController.IsDoubleCoin = false;
     }
 }
