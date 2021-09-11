@@ -6,10 +6,6 @@ public class CharacterMovement : UpgradedMonoBehaviour
 {
     private Animator animator;
 
-    public GameObject armoredParticleEffect;
-    public GameObject doubleParticleEffect;
-    public GameObject scoreParticleEffect;
-
     private float angle = 0;
     public float maxAngle = 40;
     public float minAngle = -40;
@@ -30,21 +26,13 @@ public class CharacterMovement : UpgradedMonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Coin"))
-        {
-            coinController.AddToTempCoin(1);
-            Destroy(Instantiate(scoreParticleEffect, transform.position, Quaternion.identity), 1f);
-        }
-        else if (collision.CompareTag("DoubleCoin"))
+        if (collision.CompareTag("DoubleCoin"))
         {
             StartCoroutine(DoubleScored());
-            Destroy(Instantiate(doubleParticleEffect, transform.position, Quaternion.identity), 1f);
         }
         else if (collision.CompareTag("Armored"))
         {
-            gameStateController.TransitionToState(gameStateController.OverState);
             Destroy(gameObject);
-            Destroy(Instantiate(armoredParticleEffect, transform.position, Quaternion.identity), 3f);
         }
     }
 

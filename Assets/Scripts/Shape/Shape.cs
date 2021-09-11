@@ -2,19 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shape : MonoBehaviour
+public class Shape : UpgradedMonoBehaviour
 {
-    public void ReactivateShape()
-    {
+    public GameObject particleEffect;
 
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (!collision.CompareTag("Player")) return;
 
         Pattern pattern = GetComponentInParent<Pattern>();
         pattern.deactivatedShapes.Add(this);
         gameObject.SetActive(false);
+        Destroy(Instantiate(particleEffect, transform.position, Quaternion.identity), 1f);
     }
 }

@@ -52,7 +52,6 @@ public class Pattern : UpgradedMonoBehaviour
         for (int i = 0; i < deactivatedShapes.Count; i++)
         {
             deactivatedShapes[i].gameObject.SetActive(true);
-            deactivatedShapes[i].ReactivateShape();
         }
         deactivatedShapes.Clear();
     }
