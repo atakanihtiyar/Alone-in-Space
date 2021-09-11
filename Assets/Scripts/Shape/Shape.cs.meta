@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2228caa2ac0252149aa71420cc051937
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spriteRenderer: {instanceID: 0}
+  - circleCollider: {instanceID: 0}
+  - currentSprite: {instanceID: 0}
+  - genericShapeInfos: {fileID: 11400000, guid: e49bccd138c81d447b833af663ea7b1e,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
