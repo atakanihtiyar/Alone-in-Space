@@ -56,7 +56,7 @@ public class Spawner : UpgradedMonoBehaviour
             Debug.LogError("Pattern count not enough to the loop");
             return -1;
         }
-        Debug.Log(Pattern.TotalPossibility);
+
         float randomPossibility = Random.Range(0f, Pattern.TotalPossibility);
         float cumulativePossibility = 0f;
 
@@ -67,7 +67,7 @@ public class Spawner : UpgradedMonoBehaviour
                 return i;
         }
 
-        Debug.LogError("Patterns possibilities are equal to zero");
+        Debug.LogError("Patterns cumulative possibilities less than random possibility");
         return -2;
     }
 }
