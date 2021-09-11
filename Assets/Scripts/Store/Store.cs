@@ -10,10 +10,9 @@ public class Store : UpgradedMonoBehaviour
     public GameObject itemPrefab;
     public GameObject scrollViewContent;
 
-    private void Awake()
+    private void Start()
     {
         storeItems = new List<StoreItem>();
-        themeManager = ThemeManager.Instance;
     }
 
     private void OnEnable()

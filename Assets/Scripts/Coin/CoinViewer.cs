@@ -7,9 +7,8 @@ public class CoinViewer : UpgradedMonoBehaviour
 {
     private Text coinText;
 
-    private void Awake()
+    private void Start()
     {
-        coinController = CoinController.Instance;
         coinText = GetComponentInChildren<Text>();
     }
 

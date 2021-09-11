@@ -7,7 +7,7 @@ public class ThemeApplierSpriteRenderer : ThemeApplier
 {
     private SpriteRenderer _spriteRenderer;
 
-    private void Awake()
+    private void Start()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }

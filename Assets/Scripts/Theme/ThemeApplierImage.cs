@@ -8,7 +8,7 @@ public class ThemeApplierImage : ThemeApplier
 {
     private Image _image;
 
-    private void Awake()
+    private void Start()
     {
         _image = GetComponent<Image>();
     }
