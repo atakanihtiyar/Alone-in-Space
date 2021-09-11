@@ -21,13 +21,21 @@ public class ThemeApplier : MonoBehaviour
     public ThemeKey key;
     public Theme currentTheme;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         if (key != ThemeKey.uiScore)
             mySpriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
+    private void OnEnable()
+    {
+        ThemeManager.Instance.ThemeChanged += SetTheme;
         SetTheme();
+    }
+
+    private void OnDisable()
+    {
+        ThemeManager.Instance.ThemeChanged -= SetTheme;
     }
 
     public void SetTheme()

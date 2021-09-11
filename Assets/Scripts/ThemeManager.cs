@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class ThemeManager : Singleton<ThemeManager>
 {
+    public delegate void OnThemeChanged();
+    public OnThemeChanged ThemeChanged;
+
     public CanvasManager canvas;
 
     public int currentTheme;
@@ -21,16 +24,14 @@ public class ThemeManager : Singleton<ThemeManager>
         currentTheme = themes.IndexOf(themeToBuy);
         themes[currentTheme].buyed = true;
         PlayerPrefs.SetInt("theme", currentTheme);
-
-        Notify.Instance.Show("You must restart the game for apply to change", Color.red, Color.white, 3f);
+        ThemeChanged?.Invoke();
     }
 
     internal void EquipTheme(Theme themeToEquip)
     {
         currentTheme = themes.IndexOf(themeToEquip);
         PlayerPrefs.SetInt("theme", currentTheme);
-
-        Notify.Instance.Show("You must restart the game for apply to change", Color.red, Color.white, 3f);
+        ThemeChanged?.Invoke();
     }
 
     public Theme GetTheme()
