@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 641743652561501964}
   - component: {fileID: 3773531111820836481}
   - component: {fileID: 1420033780882788082}
-  - component: {fileID: 4581000307022723128}
   - component: {fileID: 3624866409117434490}
+  - component: {fileID: 2808059602190155660}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -98,20 +98,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4581000307022723128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167543152309874536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &3624866409117434490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,6 +110,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2808059602190155660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167543152309874536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &197106212001655314
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,8 +167,8 @@ GameObject:
   - component: {fileID: 4417497901841379796}
   - component: {fileID: 8724873263075437764}
   - component: {fileID: 3242434269053842846}
-  - component: {fileID: 2267003339909311273}
   - component: {fileID: 4856980475899783989}
+  - component: {fileID: 543734447874674729}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -255,20 +254,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2267003339909311273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 235654318824107290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &4856980475899783989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,6 +266,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &543734447874674729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235654318824107290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &442742932319835266
 GameObject:
   m_ObjectHideFlags: 0
@@ -324,8 +322,8 @@ GameObject:
   - component: {fileID: 9147546109465243006}
   - component: {fileID: 961312226675904286}
   - component: {fileID: 5821673566533362043}
-  - component: {fileID: 7822740496901882452}
   - component: {fileID: 8015150353400417421}
+  - component: {fileID: 7968285535209714018}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -411,20 +409,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7822740496901882452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 644032561852660904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &8015150353400417421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,6 +421,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7968285535209714018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644032561852660904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &726674790537928090
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,8 +478,8 @@ GameObject:
   - component: {fileID: 5659019783190978742}
   - component: {fileID: 426326672981893997}
   - component: {fileID: 7680638946775928089}
-  - component: {fileID: 7037785048886163125}
   - component: {fileID: 4368510902651748792}
+  - component: {fileID: 1177166986168867}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -568,20 +565,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7037785048886163125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036729500263512121}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &4368510902651748792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -594,6 +577,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1177166986168867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036729500263512121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &1078108926612191314
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,8 +601,8 @@ GameObject:
   - component: {fileID: 396467963969740357}
   - component: {fileID: 164015624299986021}
   - component: {fileID: 270174176841739645}
-  - component: {fileID: 6081761198238691621}
   - component: {fileID: 5037179862194296230}
+  - component: {fileID: 7490050545175481230}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -692,20 +688,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6081761198238691621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1078108926612191314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &5037179862194296230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -718,6 +700,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7490050545175481230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078108926612191314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &1289664206567822608
 GameObject:
   m_ObjectHideFlags: 0
@@ -821,8 +816,8 @@ GameObject:
   - component: {fileID: 1289664206915987205}
   - component: {fileID: 1289664206915987206}
   - component: {fileID: 4632098371062637459}
-  - component: {fileID: 8304062832183513835}
   - component: {fileID: 566286051188562833}
+  - component: {fileID: 2214376943526267300}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -908,20 +903,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8304062832183513835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289664206915987322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &566286051188562833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -934,6 +915,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2214376943526267300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289664206915987322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &1289664207187819290
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,8 +971,8 @@ GameObject:
   - component: {fileID: 4457801981569305727}
   - component: {fileID: 1301215921353370362}
   - component: {fileID: 5863022827180837529}
-  - component: {fileID: 4464181317060123867}
   - component: {fileID: 3058459377781612769}
+  - component: {fileID: 532526173322787961}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -1064,20 +1058,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4464181317060123867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1393005154628412914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &3058459377781612769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1090,6 +1070,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &532526173322787961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393005154628412914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &1535431330713152127
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,8 +1094,8 @@ GameObject:
   - component: {fileID: 8813366330930535641}
   - component: {fileID: 8411016675071805856}
   - component: {fileID: 1487372710316620132}
-  - component: {fileID: 7334965228060062588}
   - component: {fileID: 1049729431702783635}
+  - component: {fileID: 2395828145077924206}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -1188,20 +1181,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7334965228060062588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1535431330713152127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &1049729431702783635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1214,6 +1193,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2395828145077924206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535431330713152127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &1667470718328528415
 GameObject:
   m_ObjectHideFlags: 0
@@ -1225,8 +1217,8 @@ GameObject:
   - component: {fileID: 3533557304612751262}
   - component: {fileID: 2964254486381994077}
   - component: {fileID: 2765522131382857184}
-  - component: {fileID: 3534617663936727268}
   - component: {fileID: 5993980602684877220}
+  - component: {fileID: 2353759599490988962}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -1312,20 +1304,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &3534617663936727268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1667470718328528415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &5993980602684877220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1338,6 +1316,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2353759599490988962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667470718328528415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &1685678162418753680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1349,8 +1340,8 @@ GameObject:
   - component: {fileID: 7068273735804066549}
   - component: {fileID: 6872434168850989036}
   - component: {fileID: 785745188549245050}
-  - component: {fileID: 3854499702361273159}
   - component: {fileID: 5133526701427565406}
+  - component: {fileID: 5462854947309634381}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -1436,20 +1427,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &3854499702361273159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685678162418753680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &5133526701427565406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1462,6 +1439,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5462854947309634381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685678162418753680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &1765198784741162999
 GameObject:
   m_ObjectHideFlags: 0
@@ -1473,8 +1463,8 @@ GameObject:
   - component: {fileID: 2225256107130540890}
   - component: {fileID: 6206518720194636752}
   - component: {fileID: 4819081034695929548}
-  - component: {fileID: 4863843689188343708}
   - component: {fileID: 8594847094646010862}
+  - component: {fileID: 7396685471308276799}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -1560,20 +1550,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4863843689188343708
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1765198784741162999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &8594847094646010862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1586,6 +1562,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7396685471308276799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765198784741162999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &1896970211388115988
 GameObject:
   m_ObjectHideFlags: 0
@@ -1597,8 +1586,8 @@ GameObject:
   - component: {fileID: 6502826069505181474}
   - component: {fileID: 6084715375455211283}
   - component: {fileID: 8750245598247461675}
-  - component: {fileID: 7779096107339362932}
   - component: {fileID: 6845118454741943500}
+  - component: {fileID: 9009823708752625826}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -1684,20 +1673,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7779096107339362932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896970211388115988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &6845118454741943500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1710,6 +1685,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9009823708752625826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896970211388115988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &1953498154024974045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,8 +1709,8 @@ GameObject:
   - component: {fileID: 4772210771789489733}
   - component: {fileID: 6875051853060533970}
   - component: {fileID: 5311714252494044898}
-  - component: {fileID: 1999190666711427763}
   - component: {fileID: 9072321899236854210}
+  - component: {fileID: 506187800647966761}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -1808,20 +1796,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1999190666711427763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1953498154024974045}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &9072321899236854210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1834,6 +1808,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &506187800647966761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1953498154024974045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &2002366774446526351
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,8 +1832,8 @@ GameObject:
   - component: {fileID: 4826870858516396458}
   - component: {fileID: 522013033588880649}
   - component: {fileID: 8374069812404815762}
-  - component: {fileID: 1099340500017097443}
   - component: {fileID: 7345915421408476688}
+  - component: {fileID: 5362764746205512770}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -1932,20 +1919,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1099340500017097443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2002366774446526351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &7345915421408476688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1958,6 +1931,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5362764746205512770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002366774446526351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &2284668741669250389
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,8 +2021,8 @@ GameObject:
   - component: {fileID: 5734294267201904318}
   - component: {fileID: 7987801617029278423}
   - component: {fileID: 3042158101600758191}
-  - component: {fileID: 5042046048815540041}
   - component: {fileID: 7116296691290573636}
+  - component: {fileID: 6820874655850013263}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -2122,20 +2108,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &5042046048815540041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2606743566935310818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &7116296691290573636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2148,6 +2120,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6820874655850013263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2606743566935310818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &2643885102739332502
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,8 +2144,8 @@ GameObject:
   - component: {fileID: 6031026305806091303}
   - component: {fileID: 1131491805886264448}
   - component: {fileID: 5836658259248803560}
-  - component: {fileID: 653863857895547045}
   - component: {fileID: 6548786567790741388}
+  - component: {fileID: 6109754676360773267}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -2246,20 +2231,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &653863857895547045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2643885102739332502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &6548786567790741388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2272,6 +2243,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6109754676360773267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2643885102739332502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &2800417876460373497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,8 +2267,8 @@ GameObject:
   - component: {fileID: 86621971822402559}
   - component: {fileID: 4219156607327834865}
   - component: {fileID: 576487787574333565}
-  - component: {fileID: 6762943520383731676}
   - component: {fileID: 137902982016485580}
+  - component: {fileID: 1131169618728625985}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -2370,20 +2354,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6762943520383731676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2800417876460373497}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &137902982016485580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2396,6 +2366,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1131169618728625985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2800417876460373497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &2919938759804263124
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,8 +2422,8 @@ GameObject:
   - component: {fileID: 7534121047925703102}
   - component: {fileID: 2597491732597196286}
   - component: {fileID: 8015645507522442418}
-  - component: {fileID: 2137624499891367382}
   - component: {fileID: 7628620384466239994}
+  - component: {fileID: 6700414418510026510}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -2526,20 +2509,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2137624499891367382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3170367587135963457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &7628620384466239994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2552,6 +2521,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6700414418510026510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3170367587135963457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &3196666858450082296
 GameObject:
   m_ObjectHideFlags: 0
@@ -2661,8 +2643,8 @@ GameObject:
   - component: {fileID: 8755288020253992152}
   - component: {fileID: 599237340481693004}
   - component: {fileID: 3999493044749888450}
-  - component: {fileID: 4423076623224240742}
   - component: {fileID: 711349614437244324}
+  - component: {fileID: 2466332017041593032}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -2748,20 +2730,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4423076623224240742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3554213470704949198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &711349614437244324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2774,6 +2742,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2466332017041593032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3554213470704949198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &3622399938802308642
 GameObject:
   m_ObjectHideFlags: 0
@@ -2785,8 +2766,8 @@ GameObject:
   - component: {fileID: 6641058423555530833}
   - component: {fileID: 6103804082102290827}
   - component: {fileID: 3117728780926805052}
-  - component: {fileID: 7003569676399310868}
   - component: {fileID: 1095765597431020475}
+  - component: {fileID: 8409731825031521094}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -2872,20 +2853,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7003569676399310868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3622399938802308642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &1095765597431020475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2898,6 +2865,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8409731825031521094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3622399938802308642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &3740579757140469393
 GameObject:
   m_ObjectHideFlags: 0
@@ -2909,8 +2889,8 @@ GameObject:
   - component: {fileID: 222142935856737229}
   - component: {fileID: 5125883502906627832}
   - component: {fileID: 6043589279075031032}
-  - component: {fileID: 6804041713780842071}
   - component: {fileID: 6635442784552793793}
+  - component: {fileID: 8573750727838433754}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -2996,20 +2976,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6804041713780842071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3740579757140469393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &6635442784552793793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3022,6 +2988,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8573750727838433754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3740579757140469393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &3820791786533503020
 GameObject:
   m_ObjectHideFlags: 0
@@ -3033,8 +3012,8 @@ GameObject:
   - component: {fileID: 6785323695542610236}
   - component: {fileID: 7689597541338305378}
   - component: {fileID: 2287130395529633964}
-  - component: {fileID: 2849319943735954460}
   - component: {fileID: 906759643263740465}
+  - component: {fileID: 2648819700707473680}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -3120,20 +3099,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2849319943735954460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3820791786533503020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &906759643263740465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3146,6 +3111,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2648819700707473680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3820791786533503020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &3823058418145173286
 GameObject:
   m_ObjectHideFlags: 0
@@ -3222,8 +3200,8 @@ GameObject:
   - component: {fileID: 8353241013401667628}
   - component: {fileID: 6413634274324078372}
   - component: {fileID: 45210048122077955}
-  - component: {fileID: 9122033159689855610}
   - component: {fileID: 203227219141057869}
+  - component: {fileID: 8928846555776204266}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -3309,20 +3287,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &9122033159689855610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3975052677297869241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &203227219141057869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3335,6 +3299,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8928846555776204266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3975052677297869241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &3999028306411764370
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,8 +3323,8 @@ GameObject:
   - component: {fileID: 929234244633467193}
   - component: {fileID: 291256439032662281}
   - component: {fileID: 2012030242912958125}
-  - component: {fileID: 1818501926772482087}
   - component: {fileID: 543478666033308604}
+  - component: {fileID: 7005862951463404259}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -3433,20 +3410,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1818501926772482087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3999028306411764370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &543478666033308604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3459,6 +3422,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7005862951463404259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3999028306411764370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &4250102404267625863
 GameObject:
   m_ObjectHideFlags: 0
@@ -3470,8 +3446,8 @@ GameObject:
   - component: {fileID: 2386713845736528369}
   - component: {fileID: 727197812865067454}
   - component: {fileID: 2641202246610687069}
-  - component: {fileID: 8519161191742077268}
   - component: {fileID: 8331252738942329559}
+  - component: {fileID: 3193625242598545171}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -3557,20 +3533,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8519161191742077268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4250102404267625863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &8331252738942329559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3583,6 +3545,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3193625242598545171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4250102404267625863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &4342732529704518266
 GameObject:
   m_ObjectHideFlags: 0
@@ -3659,8 +3634,8 @@ GameObject:
   - component: {fileID: 2951662197306975441}
   - component: {fileID: 8031352178582989617}
   - component: {fileID: 3940503792924125333}
-  - component: {fileID: 9017154675215189583}
   - component: {fileID: 5435251457114151175}
+  - component: {fileID: 6195860080146808393}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -3746,20 +3721,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &9017154675215189583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4471468382955042291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &5435251457114151175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3772,6 +3733,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6195860080146808393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4471468382955042291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &4481882294254292855
 GameObject:
   m_ObjectHideFlags: 0
@@ -3783,8 +3757,8 @@ GameObject:
   - component: {fileID: 4605270603153225740}
   - component: {fileID: 1379398979878957428}
   - component: {fileID: 6088947129242481106}
-  - component: {fileID: 5531255141925015650}
   - component: {fileID: 5331641626454172592}
+  - component: {fileID: 5909982190707053303}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -3870,20 +3844,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &5531255141925015650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4481882294254292855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &5331641626454172592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3896,6 +3856,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5909982190707053303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4481882294254292855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &4760680261108543363
 GameObject:
   m_ObjectHideFlags: 0
@@ -3907,8 +3880,8 @@ GameObject:
   - component: {fileID: 258692283428086494}
   - component: {fileID: 1418526413054329088}
   - component: {fileID: 2883850267650764363}
-  - component: {fileID: 4893115892025477801}
   - component: {fileID: 8679722790569516583}
+  - component: {fileID: 3947186571913147697}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -3994,20 +3967,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4893115892025477801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4760680261108543363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &8679722790569516583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4020,6 +3979,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3947186571913147697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4760680261108543363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &4815573647041763733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4031,8 +4003,8 @@ GameObject:
   - component: {fileID: 9090509688929906335}
   - component: {fileID: 7171997490217080034}
   - component: {fileID: 4666614952728281005}
-  - component: {fileID: 6404227885950875906}
   - component: {fileID: 2803985390711970864}
+  - component: {fileID: 925953205175798754}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -4118,20 +4090,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6404227885950875906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4815573647041763733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &2803985390711970864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4144,6 +4102,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &925953205175798754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815573647041763733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &4821023729415827182
 GameObject:
   m_ObjectHideFlags: 0
@@ -4155,8 +4126,8 @@ GameObject:
   - component: {fileID: 3292210816354333144}
   - component: {fileID: 1538851054759165178}
   - component: {fileID: 7263552145643921982}
-  - component: {fileID: 2124454522951757262}
   - component: {fileID: 3122849474257254526}
+  - component: {fileID: 3240875469497853778}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -4242,20 +4213,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2124454522951757262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4821023729415827182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &3122849474257254526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4268,6 +4225,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3240875469497853778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4821023729415827182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &4976629107715332535
 GameObject:
   m_ObjectHideFlags: 0
@@ -4279,8 +4249,8 @@ GameObject:
   - component: {fileID: 770638068928449119}
   - component: {fileID: 6719439860978853005}
   - component: {fileID: 7769843509060230330}
-  - component: {fileID: 5841235255282227189}
   - component: {fileID: 3369209010381100432}
+  - component: {fileID: 8865761274273915427}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -4366,20 +4336,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &5841235255282227189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4976629107715332535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &3369209010381100432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4392,6 +4348,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8865761274273915427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4976629107715332535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &5086123805218740528
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,8 +4405,8 @@ GameObject:
   - component: {fileID: 5327264650944978783}
   - component: {fileID: 3407818259002576867}
   - component: {fileID: 8433208558626472085}
-  - component: {fileID: 7570716898793698325}
   - component: {fileID: 5724761017066879863}
+  - component: {fileID: 6989728000574262200}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -4523,20 +4492,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7570716898793698325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5097558117747551424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &5724761017066879863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4549,6 +4504,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6989728000574262200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5097558117747551424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &5102987755362418467
 GameObject:
   m_ObjectHideFlags: 0
@@ -4560,8 +4528,8 @@ GameObject:
   - component: {fileID: 6338255730295616582}
   - component: {fileID: 2189912162765252362}
   - component: {fileID: 4055054349242979335}
-  - component: {fileID: 2675635686895876892}
   - component: {fileID: 5790617067936537965}
+  - component: {fileID: 254639796784040793}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -4647,20 +4615,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2675635686895876892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5102987755362418467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &5790617067936537965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4673,6 +4627,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &254639796784040793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5102987755362418467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &5223752895207404048
 GameObject:
   m_ObjectHideFlags: 0
@@ -4684,8 +4651,8 @@ GameObject:
   - component: {fileID: 3704050310672894353}
   - component: {fileID: 5650903040485961807}
   - component: {fileID: 6745866953356129524}
-  - component: {fileID: 7709849673240418131}
   - component: {fileID: 4901841782204660763}
+  - component: {fileID: 655203500231422612}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -4771,20 +4738,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7709849673240418131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5223752895207404048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &4901841782204660763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4797,6 +4750,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &655203500231422612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5223752895207404048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &5223955839900022382
 GameObject:
   m_ObjectHideFlags: 0
@@ -4840,8 +4806,8 @@ GameObject:
   - component: {fileID: 4230050683791202272}
   - component: {fileID: 5648419939497494861}
   - component: {fileID: 4034311641387671021}
-  - component: {fileID: 7570849239071771654}
   - component: {fileID: 4061646765133468545}
+  - component: {fileID: 3790431385065962496}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -4927,20 +4893,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7570849239071771654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5331221975997738398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &4061646765133468545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4953,6 +4905,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3790431385065962496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5331221975997738398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &5407143091712568055
 GameObject:
   m_ObjectHideFlags: 0
@@ -4964,8 +4929,8 @@ GameObject:
   - component: {fileID: 913311766049124835}
   - component: {fileID: 4874083351661758954}
   - component: {fileID: 8781730711877145030}
-  - component: {fileID: 1775313951101434842}
   - component: {fileID: 4436275773063007355}
+  - component: {fileID: 7674051282858282988}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -5051,20 +5016,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1775313951101434842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5407143091712568055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &4436275773063007355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5077,6 +5028,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7674051282858282988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5407143091712568055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &5416104753582266952
 GameObject:
   m_ObjectHideFlags: 0
@@ -5088,8 +5052,8 @@ GameObject:
   - component: {fileID: 5948239707393056412}
   - component: {fileID: 3157534100304535200}
   - component: {fileID: 2171344288821057498}
-  - component: {fileID: 9145797068179103904}
   - component: {fileID: 3460130555986586032}
+  - component: {fileID: 2911000087505539646}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -5175,20 +5139,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &9145797068179103904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5416104753582266952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &3460130555986586032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5201,6 +5151,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2911000087505539646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5416104753582266952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &5770738687561950967
 GameObject:
   m_ObjectHideFlags: 0
@@ -5212,8 +5175,8 @@ GameObject:
   - component: {fileID: 9087837879236002215}
   - component: {fileID: 2781559063038837569}
   - component: {fileID: 4466730024623531903}
-  - component: {fileID: 362370103529941185}
   - component: {fileID: 2964788048210873615}
+  - component: {fileID: 5997339750310885835}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -5299,20 +5262,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &362370103529941185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5770738687561950967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &2964788048210873615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5325,6 +5274,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5997339750310885835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5770738687561950967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &5840477707743418366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5336,8 +5298,8 @@ GameObject:
   - component: {fileID: 7306822046626149630}
   - component: {fileID: 1425410234812709678}
   - component: {fileID: 8564636846921455851}
-  - component: {fileID: 4235077368694969849}
   - component: {fileID: 5087413794399640634}
+  - component: {fileID: 9034983327010618301}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -5423,20 +5385,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4235077368694969849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5840477707743418366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &5087413794399640634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5449,6 +5397,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9034983327010618301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5840477707743418366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &6256229226227719383
 GameObject:
   m_ObjectHideFlags: 0
@@ -5460,8 +5421,8 @@ GameObject:
   - component: {fileID: 1433158260007038890}
   - component: {fileID: 6956016969195850422}
   - component: {fileID: 3135471294086125307}
-  - component: {fileID: 817094258433106438}
   - component: {fileID: 2917656048189831997}
+  - component: {fileID: 7600088531104732342}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -5547,20 +5508,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &817094258433106438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6256229226227719383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &2917656048189831997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5573,6 +5520,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7600088531104732342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6256229226227719383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &6523856638834368507
 GameObject:
   m_ObjectHideFlags: 0
@@ -5584,8 +5544,8 @@ GameObject:
   - component: {fileID: 5407518012666309089}
   - component: {fileID: 7255513786328116274}
   - component: {fileID: 7819674333815478590}
-  - component: {fileID: 7535111007790020537}
   - component: {fileID: 7597036334279313397}
+  - component: {fileID: 4507065305658556424}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -5671,20 +5631,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7535111007790020537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6523856638834368507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &7597036334279313397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5697,6 +5643,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4507065305658556424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6523856638834368507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &6540041474867183176
 GameObject:
   m_ObjectHideFlags: 0
@@ -5773,8 +5732,8 @@ GameObject:
   - component: {fileID: 5968716513380741501}
   - component: {fileID: 245369367522020387}
   - component: {fileID: 1217459390880437878}
-  - component: {fileID: 2481618299297193812}
   - component: {fileID: 714621945155609038}
+  - component: {fileID: 1697210180739700450}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -5860,20 +5819,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2481618299297193812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6901964927858966146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &714621945155609038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5886,6 +5831,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1697210180739700450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6901964927858966146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &6942709159224409898
 GameObject:
   m_ObjectHideFlags: 0
@@ -5993,8 +5951,8 @@ GameObject:
   - component: {fileID: 8449082120006754138}
   - component: {fileID: 2600128952092049780}
   - component: {fileID: 1779591553528872725}
-  - component: {fileID: 4147040300543361134}
   - component: {fileID: 7374886142727723186}
+  - component: {fileID: 9098949473254183393}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -6080,20 +6038,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4147040300543361134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7156719324946198488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &7374886142727723186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6106,6 +6050,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9098949473254183393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7156719324946198488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &7300776311988024796
 GameObject:
   m_ObjectHideFlags: 0
@@ -6117,8 +6074,8 @@ GameObject:
   - component: {fileID: 7902649972809888525}
   - component: {fileID: 6100080107404379860}
   - component: {fileID: 8100800743922982628}
-  - component: {fileID: 2318681716006100872}
   - component: {fileID: 7807415065534709510}
+  - component: {fileID: 5765327947933512635}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -6204,20 +6161,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2318681716006100872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7300776311988024796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &7807415065534709510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6230,6 +6173,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5765327947933512635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7300776311988024796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &7303738616213356976
 GameObject:
   m_ObjectHideFlags: 0
@@ -6241,8 +6197,8 @@ GameObject:
   - component: {fileID: 8708509109826440180}
   - component: {fileID: 5408872794880690997}
   - component: {fileID: 5088338978977605714}
-  - component: {fileID: 8712290156007752588}
   - component: {fileID: 8551828490814432205}
+  - component: {fileID: 4036357172449362819}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -6328,20 +6284,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8712290156007752588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7303738616213356976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &8551828490814432205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6354,6 +6296,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4036357172449362819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7303738616213356976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &7378132720384827618
 GameObject:
   m_ObjectHideFlags: 0
@@ -6365,8 +6320,8 @@ GameObject:
   - component: {fileID: 3638629545306810457}
   - component: {fileID: 5207636695657249377}
   - component: {fileID: 6406278655324412618}
-  - component: {fileID: 4992517923042061073}
   - component: {fileID: 8303631086011955039}
+  - component: {fileID: 8661848512458201119}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -6452,20 +6407,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &4992517923042061073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7378132720384827618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &8303631086011955039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6478,6 +6419,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8661848512458201119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7378132720384827618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &7386935158374270658
 GameObject:
   m_ObjectHideFlags: 0
@@ -6489,8 +6443,8 @@ GameObject:
   - component: {fileID: 4592596837831208599}
   - component: {fileID: 3506497845343292919}
   - component: {fileID: 3682699507088561041}
-  - component: {fileID: 2176852578099915654}
   - component: {fileID: 4325345754902162663}
+  - component: {fileID: 5442761456802552182}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -6576,20 +6530,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2176852578099915654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7386935158374270658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &4325345754902162663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6602,6 +6542,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5442761456802552182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7386935158374270658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &7488200195401635938
 GameObject:
   m_ObjectHideFlags: 0
@@ -6613,8 +6566,8 @@ GameObject:
   - component: {fileID: 1026030952373234495}
   - component: {fileID: 3488007769777440048}
   - component: {fileID: 7383480054073696390}
-  - component: {fileID: 642140158817288739}
   - component: {fileID: 5656595224415878827}
+  - component: {fileID: 7590479466886605483}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -6700,20 +6653,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &642140158817288739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7488200195401635938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &5656595224415878827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6726,6 +6665,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7590479466886605483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7488200195401635938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &7568075482873476073
 GameObject:
   m_ObjectHideFlags: 0
@@ -6737,8 +6689,8 @@ GameObject:
   - component: {fileID: 6613575036996296297}
   - component: {fileID: 7493417250613959460}
   - component: {fileID: 8475093874661775701}
-  - component: {fileID: 7021827013430275789}
   - component: {fileID: 9210143287019686481}
+  - component: {fileID: 6480284804035974686}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -6824,20 +6776,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7021827013430275789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7568075482873476073}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &9210143287019686481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6850,6 +6788,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6480284804035974686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7568075482873476073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &7627538926808940190
 GameObject:
   m_ObjectHideFlags: 0
@@ -6861,8 +6812,8 @@ GameObject:
   - component: {fileID: 2476785616577518314}
   - component: {fileID: 8518460655793171267}
   - component: {fileID: 7097409926066873582}
-  - component: {fileID: 5321244385642325586}
   - component: {fileID: 2026761131018674588}
+  - component: {fileID: 7765491192957507932}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -6948,20 +6899,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &5321244385642325586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7627538926808940190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &2026761131018674588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6974,6 +6911,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7765491192957507932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7627538926808940190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &8226242830805613988
 GameObject:
   m_ObjectHideFlags: 0
@@ -6985,8 +6935,8 @@ GameObject:
   - component: {fileID: 4718772818727791913}
   - component: {fileID: 2160433393531633727}
   - component: {fileID: 1842662243982872889}
-  - component: {fileID: 2898898397822057294}
   - component: {fileID: 3920266670970848408}
+  - component: {fileID: 153548651717452308}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -7072,20 +7022,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &2898898397822057294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8226242830805613988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &3920266670970848408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7098,6 +7034,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &153548651717452308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8226242830805613988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &8283540927043220455
 GameObject:
   m_ObjectHideFlags: 0
@@ -7109,8 +7058,8 @@ GameObject:
   - component: {fileID: 5970217011962715032}
   - component: {fileID: 8990093502395802396}
   - component: {fileID: 2990531840477087602}
-  - component: {fileID: 1602853965042497250}
   - component: {fileID: 4439345261905284983}
+  - component: {fileID: 2540382235282541814}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -7196,20 +7145,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1602853965042497250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8283540927043220455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &4439345261905284983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7222,6 +7157,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2540382235282541814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8283540927043220455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &8372926657933549508
 GameObject:
   m_ObjectHideFlags: 0
@@ -7233,8 +7181,8 @@ GameObject:
   - component: {fileID: 2701342093581852119}
   - component: {fileID: 31705810165424817}
   - component: {fileID: 1503923922654742166}
-  - component: {fileID: 801875866536397539}
   - component: {fileID: 7365733909917353731}
+  - component: {fileID: 8494891994924462177}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -7320,20 +7268,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &801875866536397539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8372926657933549508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &7365733909917353731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7346,6 +7280,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8494891994924462177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8372926657933549508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &8429074232282715885
 GameObject:
   m_ObjectHideFlags: 0
@@ -7357,8 +7304,8 @@ GameObject:
   - component: {fileID: 6781755478040363151}
   - component: {fileID: 3083646157434916637}
   - component: {fileID: 5838079304637311976}
-  - component: {fileID: 1185420383364453632}
   - component: {fileID: 4586202251029237818}
+  - component: {fileID: 2253845991382929351}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -7444,20 +7391,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &1185420383364453632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8429074232282715885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &4586202251029237818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7470,6 +7403,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2253845991382929351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8429074232282715885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &8702899929661730643
 GameObject:
   m_ObjectHideFlags: 0
@@ -7513,8 +7459,8 @@ GameObject:
   - component: {fileID: 8630586210169715966}
   - component: {fileID: 4079043268286441118}
   - component: {fileID: 924398811976500544}
-  - component: {fileID: 834550520587393777}
   - component: {fileID: 2663281802297360690}
+  - component: {fileID: 9051874028350054813}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -7600,20 +7546,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &834550520587393777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8878282396621726274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &2663281802297360690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7626,6 +7558,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9051874028350054813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8878282396621726274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &8917983114003089473
 GameObject:
   m_ObjectHideFlags: 0
@@ -7637,8 +7582,8 @@ GameObject:
   - component: {fileID: 3602853974357157428}
   - component: {fileID: 3808363717074699333}
   - component: {fileID: 3694309077964694473}
-  - component: {fileID: 7357203774782935807}
   - component: {fileID: 3508497475299571235}
+  - component: {fileID: 2759006341291057949}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -7724,20 +7669,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &7357203774782935807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8917983114003089473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 5
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &3508497475299571235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7750,6 +7681,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2759006341291057949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8917983114003089473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: coin
 --- !u!1 &9100229314744083952
 GameObject:
   m_ObjectHideFlags: 0
@@ -7761,8 +7705,8 @@ GameObject:
   - component: {fileID: 5650114595476797230}
   - component: {fileID: 5861138324872976639}
   - component: {fileID: 296127549292085939}
-  - component: {fileID: 6338145707684868005}
   - component: {fileID: 2924509626280374801}
+  - component: {fileID: 8254124107550327801}
   m_Layer: 0
   m_Name: Armored
   m_TagString: Armored
@@ -7848,20 +7792,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &6338145707684868005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9100229314744083952}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 3
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
 --- !u!114 &2924509626280374801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7874,6 +7804,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2228caa2ac0252149aa71420cc051937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8254124107550327801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100229314744083952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key: armored
 --- !u!1 &9136091254521333899
 GameObject:
   m_ObjectHideFlags: 0

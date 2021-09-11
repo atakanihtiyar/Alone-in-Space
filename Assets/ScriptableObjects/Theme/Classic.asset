@@ -15,6 +15,15 @@ MonoBehaviour:
   description: Starter Pack
   cost: 10
   buyed: 1
+  themeParts:
+  - name: background
+    sprite: {fileID: 21300000, guid: 892ded019ce292e47a0f89c1ce3ed9b2, type: 3}
+  - name: armored
+    sprite: {fileID: 21300000, guid: c6a3a68601e26064a8dd537a46894252, type: 3}
+  - name: double_coin
+    sprite: {fileID: 21300000, guid: 0ff5c34dddc960e4d9c5addf023bdb85, type: 3}
+  - name: coin
+    sprite: {fileID: 21300000, guid: 4b29d9c7df8a2a040bf3f3344814dcaf, type: 3}
   none: {fileID: 0}
   background: {fileID: 21300000, guid: 892ded019ce292e47a0f89c1ce3ed9b2, type: 3}
   ship: {fileID: 0}

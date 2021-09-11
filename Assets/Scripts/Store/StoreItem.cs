@@ -48,10 +48,10 @@ public class StoreItem : UpgradedMonoBehaviour
     {
         _theme = theme;
 
-        backgroundImage.sprite = theme.background;
-        armoredImage.sprite = theme.armored;
-        doubleScoreImage.sprite = theme.doubleScore;
-        scoreImage.sprite = theme.score;
+        backgroundImage.sprite = theme.GetThemePart("background").sprite;
+        armoredImage.sprite = theme.GetThemePart("armored").sprite;
+        doubleScoreImage.sprite = theme.GetThemePart("double_coin").sprite;
+        scoreImage.sprite = theme.GetThemePart("coin").sprite;
 
         nameText.text = theme.name;
         descriptionText.text = theme.description;

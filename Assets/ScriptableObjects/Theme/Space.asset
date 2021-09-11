@@ -15,6 +15,15 @@ MonoBehaviour:
   description: Pure space theme
   cost: 1000
   buyed: 1
+  themeParts:
+  - name: background
+    sprite: {fileID: 21300000, guid: 86acb9f4174f8a24dbde8bd4da84eda0, type: 3}
+  - name: armored
+    sprite: {fileID: 21300000, guid: 7e770a44e962d0e48ac4b057e68368a6, type: 3}
+  - name: double_coin
+    sprite: {fileID: 21300000, guid: fd2cb8b22fdea5c46823a3f639e6bbaa, type: 3}
+  - name: coin
+    sprite: {fileID: 21300000, guid: b537c908983334e45a31ca955c46aa95, type: 3}
   none: {fileID: 0}
   background: {fileID: 21300000, guid: 86acb9f4174f8a24dbde8bd4da84eda0, type: 3}
   ship: {fileID: 0}

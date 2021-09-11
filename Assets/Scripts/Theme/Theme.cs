@@ -9,16 +9,11 @@ public class Theme : ScriptableObject
     public string description;
     public int cost;
     public bool buyed;
+    
+    public List<ThemePart> themeParts;
 
-    [Header("None")]
-    public Sprite none;
-
-    [Header("General")]
-    public Sprite background;
-    public Sprite ship;
-
-    [Header("Shapes")]
-    public Sprite armored;
-    public Sprite doubleScore;
-    public Sprite score;
+    public ThemePart GetThemePart(string key)
+    {
+        return themeParts.Find(x => x.name.Equals(key));
+    }
 }

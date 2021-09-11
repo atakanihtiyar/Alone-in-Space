@@ -353,11 +353,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 48323475}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e9c8bfec7432a341ad48761821d02bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 6
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
+  key: coin
 --- !u!114 &48323478
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1100,11 +1099,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 310405158}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 1
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
+  key: background
 --- !u!1 &377794486
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,11 +1227,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 377794486}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
+  m_Script: {fileID: 11500000, guid: c84ff3053f29bba4ead19b07f739056d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 1
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
+  key: background
 --- !u!1 &395655572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1979,11 +1976,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 556086274}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 933fcd17fb8c24f49bcf9abb4e391ca3, type: 3}
+  m_Script: {fileID: 11500000, guid: 1e9c8bfec7432a341ad48761821d02bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 6
-  currentTheme: {fileID: 11400000, guid: fde1c8a5ea33c904083a8ef7dfad147d, type: 2}
+  key: coin
 --- !u!1 &577955159
 GameObject:
   m_ObjectHideFlags: 0
