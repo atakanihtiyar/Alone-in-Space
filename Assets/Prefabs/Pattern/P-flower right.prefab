@@ -3412,6 +3412,7 @@ MonoBehaviour:
   deactivatedShapes: []
   maxPosY: 0
   minPosY: 0
+  deactivePositionY: -13
 --- !u!1 &1289664206634744912
 GameObject:
   m_ObjectHideFlags: 0

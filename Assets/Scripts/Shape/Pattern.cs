@@ -14,19 +14,21 @@ public class Pattern : UpgradedMonoBehaviour
     public List<Shape> deactivatedShapes = new List<Shape>();
     public float maxPosY;
     public float minPosY;
-    private float _deactivePositionY;
 
-    public void Init(float deactivePositionY)
+    private float spawnYPosition;
+    private float deactivePositionY;
+
+    private void Start()
     {
         myRigidbody2D = GetComponent<Rigidbody2D>();
 
         TotalPossibility += possibility;
-        //Debug.Log(TotalPossibility);
 
         minPosY = transform.Cast<Transform>().OrderBy(t => t.localPosition.y).First().localPosition.y;
         maxPosY = transform.Cast<Transform>().OrderBy(t => t.localPosition.y).Last().localPosition.y;
 
-        _deactivePositionY = deactivePositionY;
+        spawnYPosition = 14;
+        deactivePositionY = -13;
     }
 
     void Update()
@@ -39,13 +41,13 @@ public class Pattern : UpgradedMonoBehaviour
 
     public bool IsShowing()
     {
-        if (transform.position.y + maxPosY < _deactivePositionY)
+        if (transform.position.y + maxPosY < deactivePositionY)
             return false;
 
         return true;
     }
 
-    public void Reactivate(float spawnYPosition)
+    public void Reactivate()
     {
         transform.position = new Vector3(0, spawnYPosition - minPosY, 0);
 

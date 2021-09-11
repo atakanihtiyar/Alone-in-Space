@@ -9,8 +9,6 @@ public class Spawner : UpgradedMonoBehaviour
     public bool isCreatingContinue;
 
     private int currentPattern = 0;
-    public float spawnYPosition;
-    public float deactivePositionY;
 
     public static Vector2 objectPoolPosition = new Vector2(-100, -150);
 
@@ -34,7 +32,7 @@ public class Spawner : UpgradedMonoBehaviour
         } while (newPattern == currentPattern);
         currentPattern = newPattern;
 
-        patterns[currentPattern].Reactivate(spawnYPosition);
+        patterns[currentPattern].Reactivate();
     }
 
     private IEnumerator CreateObjectPool()
@@ -43,7 +41,6 @@ public class Spawner : UpgradedMonoBehaviour
         for (int i = 0; i < patternPrefabs.Length; i++)
         {
             patterns.Add(Instantiate(patternPrefabs[i], objectPoolPosition, Quaternion.identity).GetComponent<Pattern>());
-            patterns[i].Init(deactivePositionY);
         }
         isCreatingContinue = false;
         yield return null;
@@ -53,21 +50,20 @@ public class Spawner : UpgradedMonoBehaviour
     {
         if (patterns.Count <= 1)
         {
-            Debug.LogError("Pattern count not enough to the loop");
             return -1;
         }
 
         float randomPossibility = Random.Range(0f, Pattern.TotalPossibility);
         float cumulativePossibility = 0f;
 
-        for (int i = 0; i < patterns.Count; i++)
+        int i;
+        for (i = 0; i < patterns.Count; i++)
         {
             cumulativePossibility += patterns[i].possibility;
             if (cumulativePossibility > randomPossibility)
                 return i;
         }
 
-        Debug.LogError("Patterns cumulative possibilities less than random possibility");
         return -2;
     }
 }
