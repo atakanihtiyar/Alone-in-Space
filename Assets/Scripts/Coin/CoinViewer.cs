@@ -7,7 +7,7 @@ public class CoinViewer : UpgradedMonoBehaviour
 {
     private Text coinText;
 
-    private void Start()
+    protected virtual void OnEnable()
     {
         coinText = GetComponentInChildren<Text>();
     }

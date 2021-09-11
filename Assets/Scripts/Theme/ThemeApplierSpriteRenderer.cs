@@ -7,13 +7,9 @@ public class ThemeApplierSpriteRenderer : ThemeApplier
 {
     private SpriteRenderer _spriteRenderer;
 
-    private void Start()
-    {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-
     protected override void OnEnable()
     {
+        _spriteRenderer = GetComponent<SpriteRenderer>();
         base.OnEnable();
     }
 

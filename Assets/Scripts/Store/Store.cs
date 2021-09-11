@@ -10,13 +10,9 @@ public class Store : UpgradedMonoBehaviour
     public GameObject itemPrefab;
     public GameObject scrollViewContent;
 
-    private void Start()
-    {
-        storeItems = new List<StoreItem>();
-    }
-
     private void OnEnable()
     {
+        storeItems = new List<StoreItem>();
         CreateStoreItems();
     }
 

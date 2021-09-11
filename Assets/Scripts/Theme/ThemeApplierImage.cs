@@ -8,13 +8,9 @@ public class ThemeApplierImage : ThemeApplier
 {
     private Image _image;
 
-    private void Start()
-    {
-        _image = GetComponent<Image>();
-    }
-
     protected override void OnEnable()
     {
+        _image = GetComponent<Image>();
         base.OnEnable();
     }
 

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class TotalCoinViewer : CoinViewer
 {
-    private void OnEnable()
+    protected override void OnEnable()
     {
+        base.OnEnable();
         coinController.OnTotalCoinChange += UpdateText;
         UpdateText(coinController.TotalCoin);
     }

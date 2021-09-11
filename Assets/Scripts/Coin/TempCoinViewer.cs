@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class TempCoinViewer : CoinViewer
 {
-    private void OnEnable()
+    protected override void OnEnable()
     {
+        base.OnEnable();
         coinController.OnTempCoinChange += UpdateText;
         UpdateText(coinController.TempCoin);
     }
