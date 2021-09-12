@@ -7,12 +7,12 @@ public class TempCoinViewer : CoinViewer
     protected override void OnEnable()
     {
         base.OnEnable();
-        coinController.OnTempCoinChange += UpdateText;
-        UpdateText(coinController.TempCoin);
+        coinController.TempCoinChanged += UpdateText;
+        UpdateText(coinController.tempCoin);
     }
 
     private void OnDisable()
     {
-        coinController.OnTempCoinChange -= UpdateText;
+        coinController.TempCoinChanged -= UpdateText;
     }
 }

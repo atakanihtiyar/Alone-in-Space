@@ -20,12 +20,12 @@ public class StoreItem : UpgradedMonoBehaviour
 
     private void OnEnable()
     {
-        coinController.OnTotalCoinChange += SetCostButtonInfo;
+        coinController.TotalCoinChanged += SetCostButtonInfo;
     }
 
     private void OnDisable()
     {
-        coinController.OnTotalCoinChange -= SetCostButtonInfo;
+        coinController.TotalCoinChanged -= SetCostButtonInfo;
     }
 
     public void OnClick()
@@ -56,7 +56,7 @@ public class StoreItem : UpgradedMonoBehaviour
         nameText.text = theme.name;
         descriptionText.text = theme.description;
 
-        SetCostButtonInfo(coinController.TotalCoin);
+        SetCostButtonInfo(coinController.totalCoin);
     }
 
     public void SetCostButtonInfo(int totalCoin)

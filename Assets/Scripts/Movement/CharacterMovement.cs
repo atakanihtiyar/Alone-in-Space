@@ -39,9 +39,9 @@ public class CharacterMovement : UpgradedMonoBehaviour
     public IEnumerator DoubleScored()
     {
         animator.SetTrigger("blue");
-        coinController.IsDoubleCoin = true;
+        coinController.isDoubleCoinActive = true;
         yield return new WaitForSeconds(4f);
         animator.SetTrigger("white");
-        coinController.IsDoubleCoin = false;
+        coinController.isDoubleCoinActive = false;
     }
 }

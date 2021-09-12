@@ -5,46 +5,42 @@ using UnityEngine;
 public class CoinController : Singleton<CoinController>
 {
     public delegate void OnCoinChange(int coin);
-    public OnCoinChange OnTotalCoinChange;
-    public OnCoinChange OnTempCoinChange;
+    public OnCoinChange TotalCoinChanged;
+    public OnCoinChange TempCoinChanged;
 
-    public int TotalCoin { get; set; }
-    public int TempCoin { get; set; }
-    public bool IsDoubleCoin { get; set; }
+    public int totalCoin;
+    public int tempCoin;
+    public bool isDoubleCoinActive;
 
     private void OnEnable()
     {
-        TotalCoin = PlayerPrefs.GetInt("totalCoin", 0);
-        IsDoubleCoin = false;
+        totalCoin = PlayerPrefs.GetInt("totalCoin", 0);
+        isDoubleCoinActive = false;
     }
 
     private void OnDisable()
     {
-        PlayerPrefs.SetInt("totalCoin", TotalCoin);
+        PlayerPrefs.SetInt("totalCoin", totalCoin);
     }
 
-    public bool AddToTempCoin(int amount)
+    public void AddToTempCoin(int amount)
     {
-        if ((TotalCoin + amount) < 0) return false;
-
-        TempCoin += IsDoubleCoin ? amount * 2 : amount;
-        OnTempCoinChange?.Invoke(TempCoin);
-
-        return true;
+        tempCoin += isDoubleCoinActive ? amount * 2 : amount;
+        TempCoinChanged?.Invoke(tempCoin);
     }
 
     public bool AddToTotalCoin(int amount)
     {
-        if ((TotalCoin + amount) < 0) return false;
+        if ((totalCoin + amount) < 0) return false;
 
-        TotalCoin += amount;
-        OnTotalCoinChange?.Invoke(TotalCoin);
+        totalCoin += amount;
+        TotalCoinChanged?.Invoke(totalCoin);
 
         return true;
     }
 
     public void GameOver()
     {
-        AddToTotalCoin(TempCoin);
+        AddToTotalCoin(tempCoin);
     }
 }
