@@ -8,7 +8,7 @@ public class GameOverState : GameBaseState
     {
         MovementManager.Instance.speedMultiplier = 0;
         stateController.canvas.GameOver();
-        CoinController.Instance.GameOver();
+        CoinController.Instance.TransferTempToTotal();
     }
 
     public override void Update(GameStateController stateController)
