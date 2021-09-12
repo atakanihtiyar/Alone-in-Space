@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Base class for visualizing coins
+/// </summary>
 public class CoinViewer : UpgradedMonoBehaviour
 {
     private Text coinText;
@@ -12,6 +15,10 @@ public class CoinViewer : UpgradedMonoBehaviour
         coinText = GetComponentInChildren<Text>();
     }
 
+    /// <summary>
+    /// Update text component attached to own gameobject
+    /// </summary>
+    /// <param name="coin">Value to write to component</param>
     protected virtual void UpdateText(int coin)
     {
         coinText.text = coin.ToString();

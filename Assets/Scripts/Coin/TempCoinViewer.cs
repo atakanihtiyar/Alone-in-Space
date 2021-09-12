@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Class for visualizing temp coins
+/// </summary>
 public class TempCoinViewer : CoinViewer
 {
     protected override void OnEnable()

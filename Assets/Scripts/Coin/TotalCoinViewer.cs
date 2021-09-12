@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Class for visualizing total coins
+/// </summary>
 public class TotalCoinViewer : CoinViewer
 {
     protected override void OnEnable()
