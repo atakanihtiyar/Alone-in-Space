@@ -6,7 +6,8 @@ using UnityEngine.UI;
 /// <summary>
 /// Base class for visualizing coins
 /// </summary>
-public class CoinViewer : UpgradedMonoBehaviour
+[RequireComponent(typeof(Text))]
+public abstract class CoinViewer : UpgradedMonoBehaviour
 {
     private Text coinText;
 
