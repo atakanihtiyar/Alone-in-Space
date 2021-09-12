@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class MovementManager : Singleton<MovementManager>
 {
-    public Vector2 movementDirectionVector;
+    [SerializeField] private Vector2 movementDirectionVector;
 
-    public float speedMultiplier;
-    public float maxSpeedMultiplier;
-    public float acceleration;
+    [SerializeField] private float speed;
+    [SerializeField] private float maxSpeed;
+    [SerializeField] private float acceleration;
+
+    public float Speed { get => speed; set { if (maxSpeed > speed) speed = value; } }
+    public Vector2 MovementDirectionVector { get => movementDirectionVector; set => movementDirectionVector = value; }
 
     private void Start()
     {
@@ -17,19 +20,19 @@ public class MovementManager : Singleton<MovementManager>
 
     public void ChangeDirection()
     {
-        movementDirectionVector = new Vector2(-movementDirectionVector.x, movementDirectionVector.y);
+        MovementDirectionVector = new Vector2(-MovementDirectionVector.x, MovementDirectionVector.y);
     }
 
     public Vector2 GetVelocity()
     {
-        return movementDirectionVector.normalized* speedMultiplier;
+        return MovementDirectionVector.normalized * Speed;
     }
 
     public void SpeedUp()
     {
-        if (speedMultiplier < maxSpeedMultiplier)
+        if (Speed < maxSpeed)
         {
-            speedMultiplier += acceleration * Time.deltaTime;
+            Speed += acceleration * Time.deltaTime;
         }
     }
 }

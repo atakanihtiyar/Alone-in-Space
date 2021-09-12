@@ -7,18 +7,18 @@ public class CharacterMovement : UpgradedMonoBehaviour
     private Animator animator;
 
     private float angle = 0;
-    public float maxAngle = 40;
-    public float minAngle = -40;
-    public float turnSpeed = 20;
+    private float maxAngle = 40;
+    private float minAngle = -40;
+    private float turnSpeed = 20;
 
-    void Start()
+    private void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    void Update()
+    private void Update()
     {
-        angle += movementManager.movementDirectionVector.x >  0 ? turnSpeed : -turnSpeed;
+        angle += movementManager.MovementDirectionVector.x >  0 ? turnSpeed : -turnSpeed;
         angle = Mathf.Clamp(angle, minAngle, maxAngle);
 
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
@@ -36,7 +36,7 @@ public class CharacterMovement : UpgradedMonoBehaviour
         }
     }
 
-    public IEnumerator DoubleScored()
+    private IEnumerator DoubleScored()
     {
         animator.SetTrigger("blue");
         coinController.isDoubleCoinActive = true;

@@ -7,18 +7,18 @@ public class ScrollingBackground : UpgradedMonoBehaviour
     private Rigidbody2D myRigidbody;
     private Renderer myRenderer;
 
-    void Start()
+    private void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         myRenderer = GetComponent<Renderer>();
     }
 
-    void Update()
+    private void Update()
     {
         Scroll();
     }
 
-    public void Scroll()
+    private void Scroll()
     {
         if (transform.position.y > -myRenderer.bounds.size.y)
         {
