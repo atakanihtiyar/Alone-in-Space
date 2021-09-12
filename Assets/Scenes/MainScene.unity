@@ -439,9 +439,6 @@ MonoBehaviour:
   - {fileID: 1289664206567822608, guid: 4b01b845d7b2d1445806c9d0a81cfe44, type: 3}
   patterns: []
   isCreatingContinue: 0
-  currentPattern: 0
-  spawnYPosition: 14
-  deactivePositionY: -13
 --- !u!4 &53473401
 Transform:
   m_ObjectHideFlags: 0
@@ -1261,6 +1258,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6970b99b75bf6b4e990205d135412a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  totalCoin: 0
+  tempCoin: 0
+  isDoubleCoinActive: 0
 --- !u!4 &395655574
 Transform:
   m_ObjectHideFlags: 0
@@ -2943,12 +2943,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67704a5a5743b7f4ab901aeecc7760c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  armoredParticleEffect: {fileID: 8784930562632322421, guid: 27c42790849eb71418617cb38ca84ef3,
-    type: 3}
-  doubleParticleEffect: {fileID: 8784930562632322421, guid: 20ed4e97d45ad684382e14d140a56c47,
-    type: 3}
-  scoreParticleEffect: {fileID: 8784930562632322421, guid: 11b6f45c9f485b04cb641cfa263a124e,
-    type: 3}
   maxAngle: 40
   minAngle: -40
   turnSpeed: 20
@@ -4839,6 +4833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1558798590}
+  spawner: {fileID: 53473399}
 --- !u!4 &1716277113
 Transform:
   m_ObjectHideFlags: 0
@@ -5183,7 +5178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementDirectionVector: {x: 4.5, y: -6}
   speedMultiplier: 8
-  maxSpeedMultiplier: 0
+  maxSpeedMultiplier: 12
   acceleration: 0.05
 --- !u!4 &1849950034
 Transform:
