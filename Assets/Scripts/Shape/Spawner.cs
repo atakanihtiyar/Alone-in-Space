@@ -19,7 +19,6 @@ public class Spawner : UpgradedMonoBehaviour
 
     void Update()
     {
-        if (gameStateController.CurrentState != gameStateController.PlayState) return;
         if (isCreatingContinue) return;
         if (patterns[currentPattern].IsShowing()) return;
 

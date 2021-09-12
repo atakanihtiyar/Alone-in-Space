@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class GameStateController : Singleton<GameStateController>
 {
-    public GameBaseState CurrentState { get; private set; }
+    private GameBaseState CurrentState { get; set; }
 
     public readonly GamePlayState PlayState = new GamePlayState();
     public readonly GamePauseState PauseState = new GamePauseState();
     public readonly GameOverState OverState = new GameOverState();
 
     public CanvasManager canvas;
+    public GameObject spawner;
 
     private void Start()
     {
@@ -29,16 +30,6 @@ public class GameStateController : Singleton<GameStateController>
         CurrentState.EnterState(this);
     }
 
-    public void Play()
-    {
-        TransitionToState(PlayState);
-    }
-
-    public void Pause()
-    {
-        TransitionToState(PauseState);
-    }
-
     public void GameQuit()
     {
         Application.Quit();
@@ -46,7 +37,7 @@ public class GameStateController : Singleton<GameStateController>
 
     public void Restart()
     {
-        Play();
+        TransitionToState(PlayState);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

@@ -17,18 +17,18 @@ public class CanvasManager : UpgradedMonoBehaviour
     {
         mainMenuPanel.SetActive(false);
         playTimeInfoPanel.SetActive(true);
-        gameStateController.Play();
+        gameStateController.TransitionToState(gameStateController.PlayState);
     }
 
     public void Pause()
     {
-        gameStateController.Pause();
+        gameStateController.TransitionToState(gameStateController.PauseState);
         pausePanel.SetActive(true);
     }
 
     public void Resume()
     {
-        gameStateController.Play();
+        gameStateController.TransitionToState(gameStateController.PlayState);
         pausePanel.SetActive(false);
     }
 

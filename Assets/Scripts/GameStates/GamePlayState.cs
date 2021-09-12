@@ -8,6 +8,7 @@ public class GamePlayState : GameBaseState
     {
         Time.timeScale = 1f;
         MovementManager.Instance.SpeedUp();
+        stateController.spawner.SetActive(true);
     }
 
     public override void Update(GameStateController stateController)
