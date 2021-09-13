@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Class for visualize theme parts on <c>SpriteRenderer</c> component
+/// </summary>
 [RequireComponent(typeof(SpriteRenderer))]
 public class ThemeApplierSpriteRenderer : ThemeApplier
 {

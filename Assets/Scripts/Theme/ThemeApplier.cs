@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Abstract class for visualize theme parts
+/// </summary>
 public abstract class ThemeApplier : UpgradedMonoBehaviour
 {
-    public string key;
+    /// <summary>
+    /// Key for the theme part to be visualize
+    /// </summary>
+    [SerializeField] protected string key;
 
     protected virtual void OnEnable()
     {
@@ -18,6 +24,9 @@ public abstract class ThemeApplier : UpgradedMonoBehaviour
         themeManager.ThemeChanged -= SetTheme;
     }
 
+    /// <summary>
+    /// Visualize the theme part
+    /// </summary>
     protected virtual void SetTheme()
     {
 

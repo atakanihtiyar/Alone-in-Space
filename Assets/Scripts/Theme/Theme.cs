@@ -10,7 +10,7 @@ public class Theme : ScriptableObject
     public int cost;
     public bool buyed;
     
-    public List<ThemePart> themeParts;
+    [SerializeField] private List<ThemePart> themeParts;
 
     public ThemePart GetThemePart(string key)
     {

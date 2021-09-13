@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Class for visualize theme parts on <c>Image</c> component
+/// </summary>
 [RequireComponent(typeof(Image))]
 public class ThemeApplierImage : ThemeApplier
 {
