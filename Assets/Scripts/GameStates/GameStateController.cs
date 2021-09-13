@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /// <summary>
-/// Class for managing game state changes
+/// Singleton class for managing game state changes
 /// </summary>
 public class GameStateController : Singleton<GameStateController>
 {
