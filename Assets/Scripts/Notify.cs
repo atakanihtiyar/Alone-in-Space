@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class Notify : Singleton<Notify>
 {
-    public Image backgroundImage;
-    public Text notifyText;
+    private Image backgroundImage;
+    private Text notifyText;
 
     private Coroutine hideCoroutine;
 
@@ -16,14 +16,15 @@ public class Notify : Singleton<Notify>
         base.Awake();
         GetComponent<CanvasGroup>().alpha = 1;
         gameObject.SetActive(false);
+
+        backgroundImage = GetComponent<Image>();
+        notifyText = GetComponentInChildren<Text>();
     }
 
     public void Show(string message, Color backgroundColor, Color textColor, float waitTime)
     {
-        backgroundImage = GetComponent<Image>();
         backgroundImage.color = backgroundColor;
 
-        notifyText = GetComponentInChildren<Text>();
         notifyText.text = message;
         notifyText.color = textColor;
 
