@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Class for creating and managing <c>StoreItem</c>
+/// </summary>
 public class Store : UpgradedMonoBehaviour
 {
     private List<StoreItem> storeItems;

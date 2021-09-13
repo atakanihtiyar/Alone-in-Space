@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Class for visualize themes on store
+/// </summary>
 public class StoreItem : UpgradedMonoBehaviour
 {
     private Theme _theme;
@@ -44,6 +47,10 @@ public class StoreItem : UpgradedMonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Visualize theme
+    /// </summary>
+    /// <param name="theme">Theme to visualize</param>
     public void SetItemInfo(Theme theme)
     {
         _theme = theme;
