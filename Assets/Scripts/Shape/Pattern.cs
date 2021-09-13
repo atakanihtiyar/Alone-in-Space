@@ -39,9 +39,6 @@ public class Pattern : UpgradedMonoBehaviour
         // Assigns the minimum and maximum y values of the children 
         minPosY = transform.Cast<Transform>().OrderBy(t => t.localPosition.y).First().localPosition.y;
         maxPosY = transform.Cast<Transform>().OrderBy(t => t.localPosition.y).Last().localPosition.y;
-
-        spawnYPosition = 14;
-        deactivePositionY = -13;
     }
 
     private void Update()

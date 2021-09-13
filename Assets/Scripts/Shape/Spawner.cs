@@ -62,8 +62,7 @@ public class Spawner : UpgradedMonoBehaviour
         float randomPossibility = Random.Range(0f, Pattern.TotalPossibility);
         float cumulativePossibility = 0f;
 
-        int i;
-        for (i = 0; i < patterns.Count; i++)
+        for (int i = 0; i < patterns.Count; i++)
         {
             cumulativePossibility += patterns[i].possibility;
             if (cumulativePossibility > randomPossibility)
