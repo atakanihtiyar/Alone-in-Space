@@ -43,6 +43,7 @@ public class Notify : Singleton<Notify>
         if (hideCoroutine != null)
             StopCoroutine(hideCoroutine);
 
+        // Using coroutine provides wait time independent from scaled time instead of instead of delayed invoke
         hideCoroutine = StartCoroutine(Hide(waitTime));
     }
 

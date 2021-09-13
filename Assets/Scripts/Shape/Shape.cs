@@ -17,6 +17,7 @@ public class Shape : UpgradedMonoBehaviour
 
     private void Update()
     {
+        // This will ensure that unity does not collide detection for this object. so it will create a slightly increase in performance
         if (!pattern.IsShowing())
         {
             Deactive();

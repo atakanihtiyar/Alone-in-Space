@@ -25,6 +25,9 @@ public class Spawner : UpgradedMonoBehaviour
         if (isCreatingContinue) return;
         if (patterns[currentPattern].IsShowing()) return;
 
+        // Select a new pattern and repeat if this pattern is the same as the previous one.
+        // Otherwise, if the same pattern appears, the pattern is repositioned without leaving the screen completely.
+        // This is an undesirable situation. 
         int newPattern;
         do
         {
