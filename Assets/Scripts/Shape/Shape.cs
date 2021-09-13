@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Props that can be enemies, scores, or power ups
+/// </summary>
 public class Shape : UpgradedMonoBehaviour
 {
     private Pattern pattern;

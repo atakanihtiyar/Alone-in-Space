@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Enemy shape for blow up the ship (Game Over)
+/// </summary>
 public class Armored : Shape
 {
     protected override void OnTriggerEnter2D(Collider2D collision)
