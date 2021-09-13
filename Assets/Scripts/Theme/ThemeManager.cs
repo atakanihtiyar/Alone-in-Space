@@ -8,14 +8,11 @@ public class ThemeManager : Singleton<ThemeManager>
     public delegate void OnThemeChanged();
     public OnThemeChanged ThemeChanged;
 
-    public CanvasManager canvas;
+    private int currentTheme;
+    [SerializeField] private List<Theme> themes;
 
-    public int currentTheme;
-    public List<Theme> themes;
-
-    protected override void Awake()
+    private void Start()
     {
-        base.Awake();
         currentTheme = PlayerPrefs.GetInt("theme", 0);
     }
 
@@ -27,7 +24,7 @@ public class ThemeManager : Singleton<ThemeManager>
         ThemeChanged?.Invoke();
     }
 
-    internal void EquipTheme(Theme themeToEquip)
+    public void EquipTheme(Theme themeToEquip)
     {
         currentTheme = themes.IndexOf(themeToEquip);
         PlayerPrefs.SetInt("theme", currentTheme);
@@ -37,5 +34,15 @@ public class ThemeManager : Singleton<ThemeManager>
     public Theme GetTheme()
     {
         return themes[currentTheme];
+    }
+
+    public Theme GetThemeByIndex(int index)
+    {
+        return themes[index];
+    }
+
+    public int GetThemeCount()
+    {
+        return themes.Count;
     }
 }

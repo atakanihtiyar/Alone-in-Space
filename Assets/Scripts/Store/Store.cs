@@ -26,10 +26,10 @@ public class Store : UpgradedMonoBehaviour
 
     private void CreateStoreItems()
     {
-        for (int i = 0; i < themeManager.themes.Count; i++)
+        for (int i = 0; i < themeManager.GetThemeCount(); i++)
         {
             storeItems.Add(Instantiate(itemPrefab, scrollViewContent.transform).GetComponent<StoreItem>());
-            storeItems[i].SetItemInfo(themeManager.themes[i]);
+            storeItems[i].SetItemInfo(themeManager.GetThemeByIndex(i));
         }
     }
 
