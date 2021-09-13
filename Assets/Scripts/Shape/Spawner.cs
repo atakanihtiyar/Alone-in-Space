@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class Spawner : UpgradedMonoBehaviour
 {
-    public GameObject[] patternPrefabs;
-    public List<Pattern> patterns;
-    public bool isCreatingContinue;
+    [SerializeField] private Vector2 objectPoolPosition;
+    [SerializeField] private GameObject[] patternPrefabs;
 
+    private List<Pattern> patterns;
     private int currentPattern = 0;
 
-    public static Vector2 objectPoolPosition = new Vector2(-100, -150);
+    private bool isCreatingContinue;
 
     private void Start()
     {
         StartCoroutine(CreateObjectPool());
     }
 
-    void Update()
+    private void Update()
     {
         if (isCreatingContinue) return;
         if (patterns[currentPattern].IsShowing()) return;

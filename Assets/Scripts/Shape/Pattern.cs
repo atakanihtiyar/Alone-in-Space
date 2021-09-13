@@ -5,18 +5,19 @@ using UnityEngine;
 
 public class Pattern : UpgradedMonoBehaviour
 {
+    private Rigidbody2D myRigidbody2D;
+
     private static float totalPossibility = 0f;
     public static float TotalPossibility { get => totalPossibility; private set => totalPossibility = value; }
 
-    private Rigidbody2D myRigidbody2D;
     public float possibility;
 
-    public List<Shape> deactivatedShapes = new List<Shape>();
-    public float maxPosY;
-    public float minPosY;
+    [HideInInspector] public List<Shape> deactivatedShapes = new List<Shape>();
+    private float maxPosY;
+    private float minPosY;
 
-    private float spawnYPosition;
-    private float deactivePositionY;
+    [SerializeField] private float spawnYPosition;
+    [SerializeField] private float deactivePositionY;
 
     private void Start()
     {
@@ -31,7 +32,7 @@ public class Pattern : UpgradedMonoBehaviour
         deactivePositionY = -13;
     }
 
-    void Update()
+    private void Update()
     {
         if (IsShowing())
             myRigidbody2D.velocity = movementManager.GetVelocity();

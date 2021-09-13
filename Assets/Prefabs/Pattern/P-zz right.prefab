@@ -813,8 +813,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   possibility: 1
   deactivatedShapes: []
-  maxPosY: 0
-  minPosY: 0
+  spawnYPosition: 14
+  deactivePositionY: -13
 --- !u!1 &1289664206915987322
 GameObject:
   m_ObjectHideFlags: 0

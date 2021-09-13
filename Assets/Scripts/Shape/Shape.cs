@@ -5,14 +5,14 @@ using UnityEngine;
 public class Shape : UpgradedMonoBehaviour
 {
     private Pattern pattern;
-    public GameObject particleEffect;
+    [SerializeField] private GameObject particleEffect;
 
-    public void Start()
+    private void Start()
     {
         pattern = GetComponentInParent<Pattern>();
     }
 
-    public void Update()
+    private void Update()
     {
         if (!pattern.IsShowing())
         {
@@ -28,7 +28,7 @@ public class Shape : UpgradedMonoBehaviour
         Destroy(Instantiate(particleEffect, transform.position, Quaternion.identity), 1f);
     }
 
-    public void Deactive()
+    private void Deactive()
     {
         pattern.deactivatedShapes.Add(this);
         gameObject.SetActive(false);
