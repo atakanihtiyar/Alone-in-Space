@@ -7,8 +7,8 @@ using UnityEngine.UI;
 public class Store : UpgradedMonoBehaviour
 {
     private List<StoreItem> storeItems;
-    public GameObject itemPrefab;
-    public GameObject scrollViewContent;
+    [SerializeField] private GameObject itemPrefab;
+    [SerializeField] private GameObject scrollViewContent;
 
     private void OnEnable()
     {
@@ -21,7 +21,7 @@ public class Store : UpgradedMonoBehaviour
         ClearStoreItems();
     }
 
-    public void CreateStoreItems()
+    private void CreateStoreItems()
     {
         for (int i = 0; i < themeManager.themes.Count; i++)
         {
@@ -30,7 +30,7 @@ public class Store : UpgradedMonoBehaviour
         }
     }
 
-    public void ClearStoreItems()
+    private void ClearStoreItems()
     {
         storeItems.ForEach(item => { Destroy(item.gameObject); });
         storeItems.Clear();

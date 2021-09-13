@@ -5,18 +5,18 @@ using UnityEngine.UI;
 
 public class StoreItem : UpgradedMonoBehaviour
 {
-    public Theme _theme;
+    private Theme _theme;
 
-    public Image backgroundImage;
-    public Image armoredImage;
-    public Image doubleScoreImage;
-    public Image scoreImage;
+    [SerializeField] private Image backgroundImage;
+    [SerializeField] private Image armoredImage;
+    [SerializeField] private Image doubleScoreImage;
+    [SerializeField] private Image scoreImage;
 
-    public Text nameText;
-    public Text descriptionText;
+    [SerializeField] private Text nameText;
+    [SerializeField] private Text descriptionText;
 
-    public Button buyButton;
-    public Text buyText;
+    [SerializeField] private Button buyButton;
+    [SerializeField] private Text buyText;
 
     private void OnEnable()
     {
@@ -59,7 +59,7 @@ public class StoreItem : UpgradedMonoBehaviour
         SetCostButtonInfo(coinController.totalCoin);
     }
 
-    public void SetCostButtonInfo(int totalCoin)
+    private void SetCostButtonInfo(int totalCoin)
     {
         if (_theme.buyed)
         {
