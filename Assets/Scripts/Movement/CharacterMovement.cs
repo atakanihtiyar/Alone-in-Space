@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Class for character movement
+/// </summary>
 public class CharacterMovement : UpgradedMonoBehaviour
 {
     private Animator animator;

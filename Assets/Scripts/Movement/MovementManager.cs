@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Singleton class for managing movement
+/// </summary>
 public class MovementManager : Singleton<MovementManager>
 {
     [SerializeField] private Vector2 movementDirectionVector;
@@ -10,27 +13,47 @@ public class MovementManager : Singleton<MovementManager>
     [SerializeField] private float maxSpeed;
     [SerializeField] private float acceleration;
 
-    public float Speed { get => speed; set { if (maxSpeed > speed) speed = value; } }
-    public Vector2 MovementDirectionVector { get => movementDirectionVector; set => movementDirectionVector = value; }
+    /// <summary>
+    /// Property for speed (Cannot be greater than maximum speed)
+    /// </summary>
+    public float Speed { get => speed; set { if (MaxSpeed > speed) speed = value; } }
+    /// <summary>
+    /// Property for movement direction
+    /// </summary>
+    public Vector2 MovementDirectionVector { get => movementDirectionVector;}
+    /// <summary>
+    /// Property for maximum speed
+    /// </summary>
+    public float MaxSpeed { get => maxSpeed; }
 
     private void Start()
     {
         SpeedUp();
     }
 
-    public void ChangeDirection()
+    /// <summary>
+    /// Function for change direction on x axis
+    /// </summary>
+    public void ChangeXDirection()
     {
-        MovementDirectionVector = new Vector2(-MovementDirectionVector.x, MovementDirectionVector.y);
+        movementDirectionVector = new Vector2(-movementDirectionVector.x, movementDirectionVector.y);
     }
 
+    /// <summary>
+    /// Function for get velocity
+    /// </summary
+    /// <returns>Velocity</returns>
     public Vector2 GetVelocity()
     {
         return MovementDirectionVector.normalized * Speed;
     }
 
+    /// <summary>
+    /// Function for speed up
+    /// </summary>
     public void SpeedUp()
     {
-        if (Speed < maxSpeed)
+        if (Speed < MaxSpeed)
         {
             Speed += acceleration * Time.deltaTime;
         }

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Class for scrolling and repeating background
+/// </summary>
 public class ScrollingBackground : UpgradedMonoBehaviour
 {
     private Rigidbody2D myRigidbody;
