@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Generic Singelton class
+/// </summary>
+/// <typeparam name="T">Class to be singleton </typeparam>
 public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     private static T instance;

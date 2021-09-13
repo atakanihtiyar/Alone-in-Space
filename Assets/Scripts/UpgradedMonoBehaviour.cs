@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Upgraded version of <c>MonoBehaviour</c> with static references to managers 
+/// </summary>
 public class UpgradedMonoBehaviour : MonoBehaviour
 {
     protected static GameStateController gameStateController;
