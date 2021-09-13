@@ -15,12 +15,7 @@ public class ScrollingBackground : UpgradedMonoBehaviour
 
     private void Update()
     {
-        Scroll();
-    }
-
-    private void Scroll()
-    {
-        if (transform.position.y > -myRenderer.bounds.size.y)
+        if (IsShowing())
         {
             myRigidbody.velocity = new Vector2(0, movementManager.GetVelocity().y * 0.7f);
         }
@@ -29,5 +24,15 @@ public class ScrollingBackground : UpgradedMonoBehaviour
             Vector2 offset = new Vector2(0, (myRenderer.bounds.size.y * 2));
             transform.position += (Vector3)offset;
         }
+    }
+
+    private bool IsShowing()
+    {
+        float minPosY = -myRenderer.bounds.size.y;
+
+        if (transform.position.y > minPosY)
+            return true;
+
+        return false;
     }
 }
