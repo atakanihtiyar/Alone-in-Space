@@ -438,6 +438,7 @@ MonoBehaviour:
   - {fileID: 1289664206567822608, guid: 6773752c6ce06fc42a8257f33edd5c59, type: 3}
   - {fileID: 1289664206567822608, guid: ae81be132d8259e4a944be92d04449fb, type: 3}
   - {fileID: 1289664206567822608, guid: 4b01b845d7b2d1445806c9d0a81cfe44, type: 3}
+  isCreatingContinue: 0
 --- !u!4 &53473401
 Transform:
   m_ObjectHideFlags: 0
@@ -686,19 +687,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1558798590}
-        m_MethodName: PlayPattern
+        m_MethodName: Play
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 90363613}
-        m_MethodName: SetActive
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -717,6 +707,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 90363613}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &112482633
 MonoBehaviour:
@@ -2296,7 +2297,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1558798590}
-        m_MethodName: Resume
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4859,7 +4860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1558798590}
-  spawner: {fileID: 53473399}
+  spawner: {fileID: 53473400}
 --- !u!4 &1716277113
 Transform:
   m_ObjectHideFlags: 0
@@ -5136,8 +5137,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1558798590}
-        m_MethodName: Quit
+      - m_Target: {fileID: 1716277112}
+        m_MethodName: GameQuit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5578,8 +5579,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1558798590}
-        m_MethodName: Quit
+      - m_Target: {fileID: 1716277112}
+        m_MethodName: GameQuit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

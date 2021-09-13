@@ -6,35 +6,20 @@ using UnityEngine.UI;
 
 public class CanvasManager : UpgradedMonoBehaviour
 {
-    public GameObject mainMenuPanel;
-    public GameObject playTimeInfoPanel;
-    public GameObject playAreaPanel;
-    public GameObject pausePanel;
-    public GameObject storePanel;
-    public GameObject gameOverPanel;
+    [SerializeField] private GameObject mainMenuPanel;
+    [SerializeField] private GameObject playTimeInfoPanel;
+    [SerializeField] private GameObject playAreaPanel;
+    [SerializeField] private GameObject pausePanel;
+    [SerializeField] private GameObject gameOverPanel;
 
-    public void PlayPattern()
+    public void Play()
     {
-        mainMenuPanel.SetActive(false);
-        playTimeInfoPanel.SetActive(true);
         gameStateController.TransitionToState(gameStateController.PlayState);
     }
 
     public void Pause()
     {
         gameStateController.TransitionToState(gameStateController.PauseState);
-        pausePanel.SetActive(true);
-    }
-
-    public void Resume()
-    {
-        gameStateController.TransitionToState(gameStateController.PlayState);
-        pausePanel.SetActive(false);
-    }
-
-    public void Quit()
-    {
-        gameStateController.GameQuit();
     }
 
     public void GameOver()
@@ -45,16 +30,6 @@ public class CanvasManager : UpgradedMonoBehaviour
     public void Restart()
     {
         gameStateController.Restart();
-    }
-
-    public void OpenStore()
-    {
-        storePanel.SetActive(true);
-    }
-
-    public void CloseStore()
-    {
-        storePanel.SetActive(false);
     }
 
     public void HowToNotify()
