@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Class for managing canvas objects
+/// </summary>
 public class CanvasManager : UpgradedMonoBehaviour
 {
     [SerializeField] private GameObject mainMenuPanel;
