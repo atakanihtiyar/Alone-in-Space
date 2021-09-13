@@ -15,7 +15,7 @@ public class Spawner : UpgradedMonoBehaviour
 
     public bool isCreatingContinue;
 
-    private void OnEnable()
+    private void Start()
     {
         StartCoroutine(CreateObjectPool());
     }
