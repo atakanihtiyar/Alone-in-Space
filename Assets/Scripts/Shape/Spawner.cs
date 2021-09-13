@@ -13,9 +13,9 @@ public class Spawner : UpgradedMonoBehaviour
     private List<Pattern> patterns;
     private int currentPattern = 0;
 
-    private bool isCreatingContinue;
+    public bool isCreatingContinue;
 
-    private void Start()
+    private void OnEnable()
     {
         StartCoroutine(CreateObjectPool());
     }
@@ -40,6 +40,7 @@ public class Spawner : UpgradedMonoBehaviour
     private IEnumerator CreateObjectPool()
     {
         isCreatingContinue = true;
+        patterns = new List<Pattern>();
         for (int i = 0; i < patternPrefabs.Length; i++)
         {
             patterns.Add(Instantiate(patternPrefabs[i], objectPoolPosition, Quaternion.identity).GetComponent<Pattern>());

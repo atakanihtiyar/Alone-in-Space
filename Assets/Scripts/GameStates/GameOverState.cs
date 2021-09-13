@@ -7,7 +7,7 @@ public class GameOverState : GameBaseState
     public override void EnterState(GameStateController stateController)
     {
         MovementManager.Instance.Speed = 0;
-        stateController.spawner.SetActive(false);
+        stateController.spawner.gameObject.SetActive(false);
         stateController.canvas.GameOver();
         CoinController.Instance.TransferTempToTotal();
     }

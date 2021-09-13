@@ -421,6 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e29cf2bcb4635844eb807f731f4462e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectPoolPosition: {x: -100, y: -150}
   patternPrefabs:
   - {fileID: 1289664206567822608, guid: 8dc49bb08ec31144eb10787a1cf86dc6, type: 3}
   - {fileID: 1289664206567822608, guid: 747e6011fac69944babfb4d9e89463da, type: 3}
@@ -437,8 +438,6 @@ MonoBehaviour:
   - {fileID: 1289664206567822608, guid: 6773752c6ce06fc42a8257f33edd5c59, type: 3}
   - {fileID: 1289664206567822608, guid: ae81be132d8259e4a944be92d04449fb, type: 3}
   - {fileID: 1289664206567822608, guid: 4b01b845d7b2d1445806c9d0a81cfe44, type: 3}
-  patterns: []
-  isCreatingContinue: 0
 --- !u!4 &53473401
 Transform:
   m_ObjectHideFlags: 0
@@ -696,6 +695,28 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 90363613}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2105935407}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &112482633
 MonoBehaviour:
@@ -2285,6 +2306,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1876652}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &586718552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2601,16 +2633,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1558798590}
-        m_MethodName: OpenStore
-        m_Mode: 1
+      - m_Target: {fileID: 825343983}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &691459561
 MonoBehaviour:
@@ -2943,9 +2975,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67704a5a5743b7f4ab901aeecc7760c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAngle: 40
-  minAngle: -40
-  turnSpeed: 20
 --- !u!60 &783347401
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4412,7 +4441,6 @@ MonoBehaviour:
   playTimeInfoPanel: {fileID: 2105935407}
   playAreaPanel: {fileID: 577955159}
   pausePanel: {fileID: 1876652}
-  storePanel: {fileID: 825343983}
   gameOverPanel: {fileID: 490093937}
 --- !u!114 &1558798591
 MonoBehaviour:
@@ -4664,8 +4692,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abeb86c2aaff5f4438f9be14dc4c6c49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 0}
-  notifyText: {fileID: 0}
 --- !u!225 &1645236715
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -4757,9 +4783,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1558798590}
-        m_MethodName: CloseStore
-        m_Mode: 1
+      - m_Target: {fileID: 825343983}
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4877,8 +4903,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d4551b834038e047a51c8a2e0e53bbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 1558798590}
-  currentTheme: 0
   themes:
   - {fileID: 11400000, guid: f70eb84eada4028429a941820799102b, type: 2}
   - {fileID: 11400000, guid: ac8b73909cc9c8444bd22ca052ce8c2d, type: 2}
@@ -4986,6 +5010,17 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1876652}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1790804782
 MonoBehaviour:
@@ -5177,8 +5212,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementDirectionVector: {x: 4.5, y: -6}
-  speedMultiplier: 8
-  maxSpeedMultiplier: 12
+  speed: 8
+  maxSpeed: 12
   acceleration: 0.05
 --- !u!4 &1849950034
 Transform:

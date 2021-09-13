@@ -30,7 +30,7 @@ public class GameStateController : Singleton<GameStateController>
     /// <summary>
     /// Reference to spawner object
     /// </summary>
-    public GameObject spawner;
+    public Spawner spawner;
 
     private void Start()
     {
