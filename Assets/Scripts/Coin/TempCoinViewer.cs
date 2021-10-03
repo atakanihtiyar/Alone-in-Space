@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Class for visualizing temp coins
+/// Class for visualize the temp coins
 /// </summary>
 public class TempCoinViewer : CoinViewer
 {

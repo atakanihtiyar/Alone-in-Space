@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Pattern spawner
-/// </summary>
 public class Spawner : UpgradedMonoBehaviour
 {
     [SerializeField] private Vector2 objectPoolPosition;

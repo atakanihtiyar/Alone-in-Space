@@ -3,33 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-/// <summary>
-/// Singleton class for managing game state changes
-/// </summary>
 public class GameStateController : Singleton<GameStateController>
 {
     private GameBaseState CurrentState { get; set; }
 
-    /// <summary>
-    /// Play state as a class
-    /// </summary>
     public readonly GamePlayState PlayState = new GamePlayState();
-    /// <summary>
-    /// Pause state as a class
-    /// </summary>
     public readonly GamePauseState PauseState = new GamePauseState();
-    /// <summary>
-    /// Game over state as a class
-    /// </summary>
     public readonly GameOverState OverState = new GameOverState();
 
-    /// <summary>
-    /// Reference to main canvas script
-    /// </summary>
     public CanvasManager canvas;
-    /// <summary>
-    /// Reference to spawner object
-    /// </summary>
     public Spawner spawner;
 
     private void Start()
@@ -43,26 +25,19 @@ public class GameStateController : Singleton<GameStateController>
     }
 
     /// <summary>
-    /// This method is used to switch between states
+    /// For changing state
     /// </summary>
-    /// <param name="state">New state to switch</param>
-    public void TransitionToState(GameBaseState state)
+    public void TransitionToState(GameBaseState newState)
     {
-        CurrentState = state;
+        CurrentState = newState;
         CurrentState.EnterState(this);
     }
 
-    /// <summary>
-    /// Closes the game
-    /// </summary>
     public void GameQuit()
     {
         Application.Quit();
     }
 
-    /// <summary>
-    /// Restarts the game
-    /// </summary>
     public void Restart()
     {
         TransitionToState(PlayState);

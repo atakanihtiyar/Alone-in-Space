@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Props that can be enemies, scores, or power ups
+/// Props that can be collide with player
 /// </summary>
 public class Shape : UpgradedMonoBehaviour
 {
@@ -17,7 +17,7 @@ public class Shape : UpgradedMonoBehaviour
 
     private void Update()
     {
-        // This will ensure that unity does not collide detection for this object. so it will create a slightly increase in performance
+        // This will ensure that unity does not collide detection for this object. So it will create a slightly increase in performance
         if (!pattern.IsShowing())
         {
             Deactive();

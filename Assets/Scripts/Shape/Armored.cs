@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Enemy shape for blow up the ship (Game Over)
+/// Enemy shape
 /// </summary>
 public class Armored : Shape
 {

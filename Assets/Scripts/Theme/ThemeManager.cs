@@ -3,18 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Singleton class for managing themes
-/// </summary>
 public class ThemeManager : Singleton<ThemeManager>
 {
-    /// <summary>
-    /// Delegate to control what happens when theme changes
-    /// </summary>
     public delegate void OnThemeChanged();
-    /// <summary>
-    /// Delegate when theme changed
-    /// </summary>
     public OnThemeChanged ThemeChanged;
 
     private int currentTheme;

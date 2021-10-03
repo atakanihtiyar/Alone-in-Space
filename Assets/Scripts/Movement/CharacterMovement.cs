@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Class for character movement
-/// </summary>
 public class CharacterMovement : UpgradedMonoBehaviour
 {
     private Animator animator;
@@ -21,7 +18,7 @@ public class CharacterMovement : UpgradedMonoBehaviour
 
     private void Update()
     {
-        angle += movementManager.MovementDirectionVector.x >  0 ? turnSpeed : -turnSpeed;
+        angle += movementManager.MovementDirection.x >  0 ? turnSpeed : -turnSpeed;
         angle = Mathf.Clamp(angle, minAngle, maxAngle);
 
         transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);

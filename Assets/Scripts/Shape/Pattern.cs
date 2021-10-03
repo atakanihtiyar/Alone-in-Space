@@ -15,14 +15,9 @@ public class Pattern : UpgradedMonoBehaviour
     /// Sum of all pattern possibilities
     /// </summary>
     public static float TotalPossibility { get => totalPossibility; private set => totalPossibility = value; }
-    /// <summary>
-    /// Possibility of pattern
-    /// </summary>
+
     public float possibility;
 
-    /// <summary>
-    /// Deactive shapes in the pattern
-    /// </summary>
     [HideInInspector] public List<Shape> deactivatedShapes = new List<Shape>();
     private float maxPosY;
     private float minPosY;
@@ -49,10 +44,7 @@ public class Pattern : UpgradedMonoBehaviour
             myRigidbody2D.velocity = Vector3.zero;
     }
 
-    /// <summary>
-    /// Visibility of the pattern
-    /// </summary>
-    /// <returns>Returns the "Is within camera bounds"</returns>
+    /// <returns>Returns whether it is within camera bounds"</returns>
     public bool IsShowing()
     {
         if (transform.position.y + maxPosY < deactivePositionY)
@@ -61,9 +53,6 @@ public class Pattern : UpgradedMonoBehaviour
         return true;
     }
 
-    /// <summary>
-    /// Activates deactivated shapes
-    /// </summary>
     public void Reactivate()
     {
         transform.position = new Vector3(0, spawnYPosition - minPosY, 0);

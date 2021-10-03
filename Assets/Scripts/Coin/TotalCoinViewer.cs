@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Class for visualizing total coins
+/// Class for visualize the total coins
 /// </summary>
 public class TotalCoinViewer : CoinViewer
 {

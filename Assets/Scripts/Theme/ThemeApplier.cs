@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
-/// Abstract class for visualize theme parts
+/// Class for visualize theme parts
 /// </summary>
 public abstract class ThemeApplier : UpgradedMonoBehaviour
 {
@@ -24,9 +24,6 @@ public abstract class ThemeApplier : UpgradedMonoBehaviour
         themeManager.ThemeChanged -= SetTheme;
     }
 
-    /// <summary>
-    /// Visualize the theme part
-    /// </summary>
     protected virtual void SetTheme()
     {
 

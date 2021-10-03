@@ -47,21 +47,17 @@ public class StoreItem : UpgradedMonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Visualize theme
-    /// </summary>
-    /// <param name="theme">Theme to visualize</param>
-    public void SetItemInfo(Theme theme)
+    public void SetItemInfo(Theme themeToShow)
     {
-        _theme = theme;
+        _theme = themeToShow;
 
-        backgroundImage.sprite = theme.GetThemePart("background").sprite;
-        armoredImage.sprite = theme.GetThemePart("armored").sprite;
-        doubleScoreImage.sprite = theme.GetThemePart("double_coin").sprite;
-        scoreImage.sprite = theme.GetThemePart("coin").sprite;
+        backgroundImage.sprite = themeToShow.GetThemePart("background").sprite;
+        armoredImage.sprite = themeToShow.GetThemePart("armored").sprite;
+        doubleScoreImage.sprite = themeToShow.GetThemePart("double_coin").sprite;
+        scoreImage.sprite = themeToShow.GetThemePart("coin").sprite;
 
-        nameText.text = theme.name;
-        descriptionText.text = theme.description;
+        nameText.text = themeToShow.name;
+        descriptionText.text = themeToShow.description;
 
         SetCostButtonInfo(coinController.totalCoin);
     }

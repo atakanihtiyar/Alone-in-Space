@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Power up shape for doubling money
+/// Power up shape
 /// </summary>
 public class DoubleCoin : Shape
 {

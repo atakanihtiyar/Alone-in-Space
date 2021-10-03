@@ -4,9 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// Singleton class for notify the player  
-/// </summary>
 public class Notify : Singleton<Notify>
 {
     private Image backgroundImage;
@@ -24,13 +21,6 @@ public class Notify : Singleton<Notify>
         notifyText = GetComponentInChildren<Text>();
     }
 
-    /// <summary>
-    /// Function used to show a message to the player
-    /// </summary>
-    /// <param name="message">Message to visualize</param>
-    /// <param name="backgroundColor">Color of notify panel</param>
-    /// <param name="textColor">Color of notify text</param>
-    /// <param name="waitTime">Time to display the panel</param>
     public void Show(string message, Color backgroundColor, Color textColor, float waitTime)
     {
         backgroundImage.color = backgroundColor;
@@ -43,7 +33,7 @@ public class Notify : Singleton<Notify>
         if (hideCoroutine != null)
             StopCoroutine(hideCoroutine);
 
-        // Using coroutine provides wait time independent from scaled time instead of instead of delayed invoke
+        // Using coroutine provides wait time independent from scaled time instead of delayed invoke
         hideCoroutine = StartCoroutine(Hide(waitTime));
     }
 
