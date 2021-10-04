@@ -155,7 +155,7 @@ protected override void SetTheme()
 ## Concepts
 
 ### Coroutines 
-Used to [basic animation](https://github.com/atakanihtiyar/Alone-in-Space###-Basic-animation) and create [object pool](https://github.com/atakanihtiyar/Alone-in-Space###-Object-Pool) objects
+Used to [basic animation](###-Basic-animation) and create [object pool](###-Object-Pool) objects
 
 ### Basic animation
 Used for x2 score boost. <br>
