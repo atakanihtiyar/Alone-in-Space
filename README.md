@@ -155,7 +155,7 @@ protected override void SetTheme()
 ## Concepts
 
 ### Coroutines 
-Used to [basic animation](###-Basic-animation) and create [object pool](###-Object-Pool) objects
+Used to [basic animation](#Basic-animation) and create [object pool](#Object-Pool) objects
 
 ### Basic animation
 Used for x2 score boost. <br>
