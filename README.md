@@ -70,6 +70,11 @@ private void Update()
 
   //Some codes
 }
+
+private IEnumerator CreateObjectPool()
+{
+  // Instantiate objects
+}
 ```
 
 
