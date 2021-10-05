@@ -12,14 +12,14 @@ This is a hyper casual game for android platform. Collect coin and don't hit red
 ## Design patterns used in this project
 * [Singleton](#Singleton)
 * [Object Pool](#Object-Pool)
-* [Observer (C# Delegate)](#Observer-(C#-Delegate))
-* [State (Class-based)](#State-(Class-based))
+* [Observer (C# Delegate)](#Observer)
+* [State (Class-based)](#State)
 * [Subclass sandbox](#Subclass-sandbox)
 
 ## Concepts used in this project
 * [Coroutine](#Coroutine)
 * [Basic animation](#Basic-animation)
-* [Particle effects](#Particle effects)
+* [Particle effects](#Particle-effects)
 
 
 ## Design Patterns
@@ -79,7 +79,7 @@ private IEnumerator CreateObjectPool()
 ```
 
 
-### Observer (C# Delegate)
+### Observer
 A delegate is defined in the subject. Observers add themselves to this delegate when enabled and delete themselves from this delegate when disabled.<br>
 Subject:
 ```c#
@@ -108,7 +108,7 @@ private void OnDisable()
 ```
 
 
-### State (Class-based)
+### State
 GameBaseState.cs:
 ```c#
 public abstract void EnterState(GameStateController stateController);
