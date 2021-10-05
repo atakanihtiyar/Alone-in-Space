@@ -10,16 +10,16 @@ This project was generated with Unity 2018.4.36f1.
 This is a hyper casual game for android platform. Collect coin and don't hit red bad boys
 
 ## Design patterns used in this project
-* Singleton
-* Object Pool
-* Observer (C# Delegate)
-* State (Class-based)
-* Subclass sandbox
+* [Singleton](#Singleton)
+* [Object Pool](#Object Pool)
+* [Observer (C# Delegate)](#Observer (C# Delegate))
+* [State (Class-based)](#State (Class-based))
+* [Subclass sandbox](#Subclass sandbox)
 
 ## Concepts used in this project
-* Coroutine
-* Basic animation
-* Particle effects
+* [Coroutine](#Coroutine)
+* [Basic animation](#Basic animation)
+* [Particle effects](#Particle effects)
 
 
 ## Design Patterns
@@ -54,7 +54,8 @@ private void Start()
 
 private void Update()
 {
-  //Some codes
+  if (isCreatingContinue) return;
+  if (patterns[currentPattern].IsShowing()) return;
 
   // Select a new pattern and repeat if this pattern is the same as the previous one.
   // Otherwise, if the same pattern appears, the pattern is repositioned without leaving the screen completely.
