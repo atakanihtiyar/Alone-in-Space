@@ -160,7 +160,7 @@ protected override void SetTheme()
 
 ## Concepts
 
-### Coroutines 
+### Coroutine
 Used to [basic animation](#Basic-animation) and create [object pool](#Object-Pool) objects
 
 ### Basic animation
